@@ -1,4 +1,4 @@
-# Portfolio by Dr. Anna Katharina Angermann 
+# Technical Writing Portfolio by Dr. Anna Katharina Angermann 
 
 This portfolio showcases selected work in API documentation, safety instructions, and UX writing.  
 The samples are available in English or German, depending on the target audience and use case.
