@@ -1,21 +1,25 @@
-# Technical Writing Portfolio by Dr. Anna Katharina Angermann 
-
-This portfolio showcases selected work in API documentation, safety instructions, and UX writing.  
-The samples are available in English or German, depending on the target audience and use case.
+# Technical Writing Portfolio
 
 ---
 
-## English Samples
-- [World Bank API – Developer Documentation](api-case-study_EN.md)
-- [Jump Starter – Safety Documentation (EN)](jumpstarter_EN.md)
-
-## German Samples
-- [Starthilfe-Gerät – Sicherheit & Anleitung](jumpstarter_DE.md)
-- [Audible – UX Case Study](audible_DE.md)
+## About Me
+- 🇩🇪 [Über mich](about_DE.md)
+- 🇺🇸 [About](about_EN.md)
 
 ---
 
-## Notes
-- The jump starter example is available in both English and German to demonstrate bilingual documentation skills.
-- All documents are written in Markdown and designed for clarity, structure, and technical readability.
+## Technical Documentation
 
+### Developer Documentation
+- 🇺🇸 [Case Study: World Bank API](world-bank-api_EN.md)
+
+### Safety & Compliance
+- 🇩🇪 [Sichere Anwendung eines Starthilfegeräts](jumpstarter_DE.md)
+- 🇺🇸 [Safe Use of a Jump Starter](jumpstarter_EN.md)
+- 🇩🇪 [Bedienungsanleitung Lichtwecker](alarmclock_DE.md)
+- 🇺🇸 [Sun Rise Alarm Clock Instructions](alarmclock_EN.md)
+
+---
+
+## UX Writing
+- 🇺🇸 [Handling Inconsistent Offer Communication at Audible](audible_EN.md)
