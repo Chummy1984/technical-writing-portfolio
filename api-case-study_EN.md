@@ -381,7 +381,7 @@ When working with the World Bank API, the following practices help ensure reliab
     
     Typos result in empty responses.
 
-  ## 9. Extending to Other Countries and Indicators
+## 9. Extending to Other Countries and Indicators
 
 The approach shown in this case study can be easily transferred to other datasets. 
 
