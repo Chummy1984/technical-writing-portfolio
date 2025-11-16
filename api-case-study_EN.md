@@ -242,7 +242,7 @@ To find Latvia’s GDP per capita for a specific year, locate the `<record>` wit
 
 If the request includes `format=json`, the response is returned in JSON format:
 
-```json
+```javascript
 [
   {
     "page": 1,
