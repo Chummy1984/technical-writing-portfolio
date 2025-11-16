@@ -380,3 +380,26 @@ When working with the World Bank API, the following practices help ensure reliab
     Make sure the **country code** (e.g. `LV`) and the **indicator code** (e.g. `NY.GDP.PCAP.CD`) are correct before sending the request.
     
     Typos result in empty responses.
+
+  ## 9. Extending to Other Countries and Indicators
+
+The approach shown in this case study can be easily transferred to other datasets. 
+
+- **Change the country code:**
+    
+    Replace `LV` with another ISO country code (e.g. `DE` for Germany, `US` for the United States).
+    
+- **Change the indicator code:**
+    
+    Replace `NY.GDP.PCAP.CD` with another World Bank indicator (e.g. `SP.POP.TOTL` for total population).
+    
+
+**Example:** Retrieve Germany’s population between 2010 and 2020 in JSON format:
+
+```
+GET https://api.worldbank.org/v2/country/DE/indicator/SP.POP.TOTL?date=2010:2020&format=json&per_page=500
+```
+
+This demonstrates how the same request structure can be reused across multiple indicators and countries.
+
+As a result, the World Bank API offers a consistent and flexible way to access diverse economic and demographic data.
