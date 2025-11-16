@@ -1,4 +1,4 @@
-# Technical Writing Portfolio
+# Portfolio by Dr. Anna K. Angermann
 
 ### Ich freue mich darauf, mit Technical- und UX-Writing dazu beizutragen, komplexe Produkte verständlich, leicht und angenehm nutzbar zu machen!
 
