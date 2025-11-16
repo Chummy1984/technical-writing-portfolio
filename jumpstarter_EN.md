@@ -1,4 +1,4 @@
-# **Technical Writing: Sichere Anwendung eines Starthilfegeräts (Tutorial & Normen)**
+# **Sichere Anwendung eines Starthilfegeräts (Tutorial & Normen)**
 
 # Überblick
 
