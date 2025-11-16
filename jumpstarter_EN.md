@@ -1,110 +1,111 @@
-# **Sichere Anwendung eines Starthilfegeräts (Tutorial & Normen)**
+# **Safe Use of a Jump Starter (Tutorial & Compliance Guide)**
 
-## Überblick
+## Overview
 
-1. **Kontext**
-2. **Originalanleitung (Auszug)**
-3. **Analyse der Schwächen**
-4. **Relevante Normen**
-5. **Überarbeitete Anleitung**
-6. **Fazit**
+1. **Context**
+2. **Original Instructions (Excerpt)**
+3. **Analysis of Weaknesses** 
+4. **Relevant Standards**
+5. **Revised Instructions** 
+6. **Conclusion** 
 
-## 1. Kontext
+## 1. Context
 
-Nachdem mein Auto liegen geblieben war, erwarb ich ein Starthilfegerät, um die Zeit bis zum Austausch der Batterie zu überbrücken. Beim ersten Einsatz fiel mir auf, dass wesentliche Teile der Anleitung nicht nur fehlerhaft und unvollständig sind, sondern sogar ein Sicherheitsrisiko für Anwender und Fahrzeug darstellen.
+After my car had broken down, I purchased a jump starter to bridge the time before the car battery would get fixed. When applying the device for the first time, I noticed that key elements of the instructions are not only faulty and incomplete, but also dangerous for both user and vehicle. 
 
-In diesem Abschnitt möchte ich einen sicherheitsrelevanten Teil der Anleitung unter Berücksichtigung einschlägiger Normen und Sicherheitsregeln analysieren und überarbeiten. 
+In this section, I intend to analyse and revise one essential part of the instructions, considering relevant norms and safety rules. 
 
-Es geht um dieses Gerät: https://www.amazon.de/dp/B0D4J4P5FW?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
+This is the device in question: https://www.amazon.de/dp/B0D4J4P5FW?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
 
-![Jump Starter Titelblatt zugeschnitten.jpg](attachment:b273a1d3-9ec3-4a01-b4e6-4618e43c5fa9:Jump_Starter_Titelblatt_zugeschnitten.jpg)
+![Jump Starter Titelblatt zugeschnitten.jpg](attachment:d95dd516-bf48-4f76-ae37-dfcf15c7991d:Jump_Starter_Titelblatt_zugeschnitten.jpg)
 
-## **2. Originalanleitung (Auszug)**
+## 2. Original Instructions (Excerpt)
 
-Im Folgenden ist ein Auszug aus der Originalanleitung abgebildet. Die Schritte 1 bis 5 zeigen, wie das Starthilfegerät verwendet werden soll. Dieser Auszug dient als Grundlage für die anschließende Analyse und Überarbeitung.
+The following excerpt is taken from the original manual. Steps 1 to 5 illustrate how the jump starter is intended to be used. This excerpt serves as the basis for the subsequent analysis and revision.
 
-![Jump Starter Deutsch zugeschnitten.jpg](attachment:f0eb5fd5-93bd-4c6e-a3bf-b687961f28a1:Jump_Starter_Deutsch_zugeschnitten.jpg)
+![Jump Starter Englisch zugeschnitten.jpg](attachment:2ff198a1-1625-4127-9fa4-33903f4e911e:Jump_Starter_Englisch_zugeschnitten.jpg)
 
-## **3. Analyse der Schwächen**
+## 3. Analysis of Weaknesses
 
-Die folgende Analyse zeigt die zentralen Schwächen der Originalanleitung auf. Betrachtet werden formale Aspekte, inhaltliche Mängel sowie sicherheitsrelevante Lücken, die die Nutzbarkeit und Konformität beeinträchtigen können.
+The following analysis highlights the main weaknesses of the original instructions. It considers formal aspects, content-related issues, and critical safety gaps that may affect usability and compliance.
 
-#### Formelle Probleme
+### Formal issues
 
-- **Inkonsistenter Stil**: Mischung aus Befehlsform („Starten Sie das Auto“) und beschreibenden Aussagen („Wenn die grüne Kontrollleuchte immer leuchtet …“).
-- **Unklare Begriffe**: „Drahtclip“ ist kein gängiger Begriff und verharmlost ein sicherheitsrelevantes Bauteil; „Smart Battery Clamp“ wird nicht erklärt. „Pol“ statt „Anschluss“ wirkt unpräzise und ist für Laien schwerer verständlich.
-- **Holprige Sprache**: Formulierungen wie „Bitte stellen Sie sicher, dass … eingeschaltet bleibt“ sind unnötig schwerfällig.
-- **Formatierung**: Wichtige Elemente (Plus/Minus, LED-Farben) sind nicht hervorgehoben.
-- **Rechtschreibung/Grammatik**: Mehrere kleine Fehler, die das professionelle Erscheinungsbild schwächen und die Verständlichkeit beeinträchtigen.
+- **Inconsistent instructions**: The text alternates between commands (“Start the vehicle”) and mere descriptions (“The green light is always on”). This makes it unclear whether the user is expected to take an action or simply observe a status, which can lead to hesitation or mistakes.
+- **Terminology problems**: Use of “electrode” instead of the common “terminal”; “smart clip” is not a standardized term.
+- **Vague phrasing**: “Exceeds two indicator lights” is unclear; the wording “remains on” is awkward.
+- **Formatting**: Important safety aspects (polarity, color coding, sequence) are not highlighted.
 
-#### Inhaltliche Probleme
+### Content issues
 
-- **Unvollständig**: Es fehlt eine klare Anweisung zur Reihenfolge beim Abklemmen. Dadurch besteht die Gefahr, dass Nutzer falsch abklemmen und Funken direkt an der Batterie entstehen.
-- **Uneinheitlich**: Schritt 2 verweist auf rot/grün blinkende LEDs, Schritt 3 auf eine dauerhaft grüne LED – ohne klare Erklärung des Unterschieds.
-- **Kein Troubleshooting im abgebildeten Auszug**: In den dargestellten Schritten fehlen Hinweise, was bei Fehlstart, falscher LED-Anzeige oder Kontaktproblemen zu tun ist. Für Anwender wäre an dieser Stelle zumindest ein Verweis auf eine Fehlerbehebung hilfreich.
+- **Incomplete procedure**: No exhaustive guidance on the safe order for removing clamps.
+- **Lack of clarity**: Battery charge level is referenced only via “indicator lights,” without any clear threshold (e.g., percentage or voltage).
+- **No troubleshooting**: No advice on what to do if the car doesn’t start or if the lights don’t behave as described.
+- **Contradictory sequencing**: Step 2 describes both red and green lights flashing, while Step 3 states that the green light “is always on.” This inconsistency might leave users unsure at which point it is safe to continue, increasing the risk of premature or delayed action.
 
-#### Sicherheitsprobleme
+### Safety issues
 
-- **Fehlende Warnhinweise**: Keine Hinweise auf Kurzschluss-, Funken- oder Verpolungsgefahr.
-- **Keine Abfolge beim Abklemmen**: „Bitte entfernen Sie den Drahtclip innerhalb von 30 Sekunden“ ist vage, technisch unsinnig und potenziell riskant.
-- **Fehlender Kontext**: Keine Hinweise auf sichere Umgebung (z. B. keine offenen Flammen, gute Belüftung, keine Feuchtigkeit). Vorgaben dieser Art sind in EN ISO 82079-1 üblich.
-- **Nutzer-Sicherheit**: Keine Empfehlungen zu Schutzausrüstung (Handschuhe, Schutzbrille).
-- **Verpolung**: Die Anleitung enthält keine explizite Warnung vor falschem Anschluss (rot an –, schwarz an +), obwohl dies im Ernstfall gravierende Schäden verursachen kann.
+- **No explicit warnings**: The risk of sparks, reverse polarity, or short circuits is not addressed.
+- **Disconnecting sequence missing**: Simply says “remove immediately” without the correct order (negative first, then positive).
+- **No environmental context**: No warning against use near fuel vapors, rain, or moving engine parts.
+- **Personal safety ignored**: No mention of protective equipment (gloves, goggles).
 
-## **4. Relevante Normen**
+## 4. Relevant Standards
 
-Die folgende Tabelle zeigt einschlägige Normen und Richtlinien, die für technische Dokumentation relevant sind. Sie macht deutlich, welche Anforderungen in der Originalanleitung nicht erfüllt werden und warum daraus Sicherheits- und Konformitätsrisiken entstehen.
+The following section reviews relevant standards and regulations that apply to technical documentation. It highlights which requirements are not met by the original instructions and explains why these gaps pose a risk to safety and compliance.
 
-| Norm / Richtlinie | Zentrale Anforderung | Lücke in der Originalanleitung |
+| Standard | Requirement | Violation in the Manual |
 | --- | --- | --- |
-| **DIN EN ISO 82079-1** (Erstellen von Gebrauchsanleitungen) | Klare Struktur, konsistente Terminologie, Sicherheitshinweise mit Signalwörtern | Keine Signalwörter, uneinheitliche Begriffe, schwammige Formulierungen |
-| **DIN EN ISO 3864 / ISO 7010** (Sicherheitszeichen und -farben) | Verwendung von Piktogrammen und Sicherheitsfarben zur Hervorhebung von Gefahren | Keine Piktogramme, keine Farbcodierung von Warnungen |
-| **Maschinenrichtlinie 2006/42/EG** | Risiken müssen klar benannt, Schutzmaßnahmen angegeben werden | Gefahren wie Verpolung, Funkenbildung oder falsches Abklemmen nicht beschrieben |
-| **Niederspannungsrichtlinie 2014/35/EU** | Sichere Bedienungsanleitungen für elektrische Betriebsmittel | Keine Hinweise auf Stromschlag-, Kurzschluss- oder Brandgefahr |
-| **Produktsicherheitsgesetz (ProdSG, Deutschland)** | Produkte dürfen nur mit sicheren, vollständigen Anleitungen vertrieben werden | Anleitung unvollständig, kann Fehlbedienung und Schäden verursachen |
+| **ANSI Z535** (Safety Signs and Labels) | Use of standardized signal words (DANGER, WARNING, CAUTION) and clear formatting of safety messages | No signal words or structured warnings are included |
+| **OSHA 29 CFR 1910.145** (General Industry Standards) | Clear indication of hazards for machines and electrical devices | No mention of electric shock, fire, or injury risks |
+| **IEC 82079-1** (Preparation of Instructions for Use) | International standard requiring consistent terminology, step-by-step clarity, and inclusion of safety information | Terminology inconsistent, procedures vague, no explicit safety instructions |
+| **ISO 3864 / ISO 7010** (Safety Colors and Symbols) | Use of safety colors and pictograms for hazard communication | No pictograms or color coding for safety |
+| **UL 2743** (Portable Power Packs) | Safety requirements for jump starters, including polarity, disconnection sequence, and operating environment | No guidance on disconnection order, reverse polarity, or safe operating conditions |
 
-## **5. Überarbeitete Anleitung**
+These gaps are not minor editorial flaws but critical safety and compliance issues. The absence of standardized warnings and clear safety instructions increases the likelihood of misuse, accidents, and legal liability.
 
-Die Originalanleitung enthielt unklare Begriffe, inkonsistente Formulierungen und sicherheitsrelevante Lücken. Die folgende überarbeitete Fassung bietet eine klare Schritt-für-Schritt-Anleitung, die die Verständlichkeit erhöht, gängigen Sicherheitsnormen entspricht und Risiken für Anwender und Fahrzeug reduziert.
+## 5. Revised Instructions
 
-#### So starten Sie Ihr Auto mit dem Starthilfegerät
+The original instructions contained unclear terminology, inconsistent style, and several critical safety gaps. The following revised version provides a clear, step-by-step procedure that improves usability, aligns with common safety standards, and minimizes risks for both user and vehicle.
 
-1. **Ladezustand prüfen**
-    
-    Stellen Sie sicher, dass das Starthilfegerät mindestens zwei Kontrollleuchten anzeigt, bevor Sie es benutzen.
-    
-    ⚠️ **WARNUNG** – Verwenden Sie das Gerät nicht bei geringerem Ladezustand.
-    
-2. **Klemmen mit dem Starthilfegerät verbinden**
-    
-    Stecken Sie den Stecker der Smart Battery Clamp vollständig in das Gerät, bis er einrastet. Die Kontrollleuchten beginnen zu blinken.
-    
-    ℹ️ **Hinweis** – Verwenden Sie ausschließlich die mitgelieferten Klemmen.
-    
-3. **Klemmen am Fahrzeug anbringen**
-    - Befestigen Sie die rote Klemme am Pluspol (+) der Batterie.
-    - Befestigen Sie die schwarze Klemme vorzugsweise an einem festen Massepunkt (blankes Metall am Fahrzeugrahmen, fern von der Batterie). Falls kein geeigneter Massepunkt vorhanden ist, am Minuspol (–) der Batterie.
-        
-        ✅ Die grüne Kontrollleuchte muss dauerhaft leuchten, bevor Sie fortfahren.
-        
-        ⚠️ **VORSICHT** – Klemmen dürfen sich nicht berühren und keinen Kontakt mit beweglichen oder lackierten Teilen haben.
-        
-4. **Motor starten**
-    
-    Drehen Sie den Zündschlüssel oder drücken Sie den Startknopf. Startet der Motor nicht, warten Sie mindestens 20 Sekunden (damit sich das Gerät zurücksetzt), bevor Sie es erneut versuchen.
-    
-5. **Klemmen sicher entfernen**
-    
-    Sobald der Motor läuft, entfernen Sie die Klemmen in folgender Reihenfolge:
-    
-    - Zuerst die schwarze Klemme (–).
-    - Danach die rote Klemme (+).
-        
-        ⚠️ **VORSICHT** – Halten Sie die Klemmen stets voneinander fern und vermeiden Sie Kontakt mit metallischen Fahrzeugteilen.
-        
+### How to Start Your Car with the Jump Starter
 
-## **6. Fazit**
+⚠️ **Safety Note**: Do not use the jump starter near flammable vapors, rain, or moving engine parts. Always wear protective gloves and goggles.
 
-Mit dieser Fallstudie habe ich gezeigt, wie ich eine fehlerhafte und potenziell riskante Originalanleitung analysiere, Schwächen herausarbeite und sie Schritt für Schritt in eine klare, konsistente und sicherheitsorientierte Anleitung überführe. Dabei habe ich anerkannte Dokumentationsstandards berücksichtigt und die Risiken für Anwender und Fahrzeug gezielt reduziert.
+1. **Check the device’s charge level.**
+    
+    Ensure that the jump starter shows at least two indicator lights before use. ⚠️ Do not attempt to start a vehicle if the charge is lower.
+    
+2. **Connect the clamps to the jump starter.**
+    
+    Insert the plug of the smart clamp fully into the jump starter until it clicks into place. The indicator lights will begin to flash.
+    
+3. **Attach the clamps to the car battery.**
+    - Connect the red clamp to the positive (+) terminal of the battery.
+    - Connect the black clamp either to the negative (–) terminal **or**, if recommended by your vehicle manufacturer, to a solid, unpainted metal part of the engine or chassis (ground).
+    
+    ✅ The green indicator light must be steady before proceeding.
+    
+4. **Start the vehicle.**
+    
+    Turn the ignition key or press the start button. If the vehicle does not start, wait at least 20 seconds before making another attempt.
+    
+5. **Disconnect the clamps safely.**
+    
+    Once the engine is running, disconnect the clamps in the following order:
+    
+    - First remove the black (–) clamp.
+    - Then remove the red (+) clamp.
+    
+    ⚠️ Always keep clamps away from each other and from metal parts of the vehicle.
+    
 
-Das Ergebnis ist mehr als eine sprachliche Glättung; es ist eine praxisnahe Demonstration meiner Fähigkeit, komplexe Anforderungen zu durchdringen, relevante Normen einzubeziehen und daraus eine verständliche, anwenderfreundliche Lösung zu entwickeln.
+## 6. Conclusion
+
+By revising the original instructions, the jump starter manual now provides a clear, consistent, and safety-focused procedure. The improved version:
+
+- **Enhances safety** by addressing critical risks such as polarity, disconnection order, and environmental hazards.
+- **Aligns with international standards** by applying consistent terminology, structured steps, and clear warnings.
+- **Improves usability** through precise language, logical sequencing, and intuitive formatting.
+
+Together, these changes significantly reduce the risk of user error and ensure greater protection for both the driver and the vehicle.
