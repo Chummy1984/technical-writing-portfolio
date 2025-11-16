@@ -17,7 +17,7 @@ In diesem Abschnitt möchte ich einen sicherheitsrelevanten Teil der Anleitung u
 
 Es geht um dieses Gerät: https://www.amazon.de/dp/B0D4J4P5FW?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
 
-![Jumpstarter Titel](Jumpstarter_title.jpg)
+![Jumpstarter title](jumpstarter_title.jpg)
 
 ## **2. Originalanleitung (Auszug)**
 
