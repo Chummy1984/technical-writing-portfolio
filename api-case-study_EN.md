@@ -127,3 +127,77 @@ The JSON response contains:
 - **Metadata** (page info, total entries)
 - An **array of records**, each with indicator, country, date, and value
 - Note: some numeric fields (e.g. `"per_page"`) are returned as strings
+
+- ## 5. Use Case: Retrieve Latvia’s GDP per Capita
+
+### 5.1. Goal
+
+This section walks you through retrieving Latvia’s GDP per capita between 2000 and 2020 using the World Bank API.
+
+### 5.2. Step-by-step Explanation
+
+To retrieve Latvia’s GDP per capita between 2000 and 2020, follow these steps:
+
+1. **Choose the correct indicator.**
+    
+    The World Bank uses the indicator code `NY.GDP.PCAP.CD` to refer to GDP per capita in current US dollars.
+    
+2. **Define the endpoint.**
+    
+    The base endpoint for retrieving indicator data for a specific country is:
+    
+    For Latvia and GDP per capita, this becomes:
+    
+    ```
+    https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD
+    ```
+    
+3. **Add optional parameters.**
+    
+    To refine the query and make the response easier to process, use the following parameters:
+    
+    - `date=2000:2020` limits the data to the desired time range.
+    - `format=json` requests the response in JSON rather than the default XML.
+    - `per_page=500` ensures that the entire time series is returned in a single response without pagination.
+4. **Construct the complete request.**
+    
+    Combining the endpoint and parameters results in the following URL:
+    
+    ```
+    https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD?date=2000:2020&format=json&per_page=500
+    ```
+    
+5. **Send the request.**
+    
+    Use the HTTP method `GET` to retrieve the data. No authentication is required
+    
+
+### 5.3. Sample Request
+
+#### 5.3.1. Requesting XML (default)
+
+The following request retrieves Latvia’s GDP per capita between 2000 and 2020 in the default XML format:
+
+```
+GET https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD?date=2000:2020&per_page=500
+```
+
+This request includes:
+
+– `date=2000:2020` to specify the time range
+
+– `per_page=500` to avoid pagination and return the full time series
+
+– No `format` parameter is needed, as XML is the default
+
+---
+
+#### 5.3.2. Requesting JSON
+
+To receive the response in JSON format instead of XML, use:
+
+```
+GET https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD?date=2000:2020&format=json&per_page=500
+```
+
+This version adds the `format=json` parameter to the request.
