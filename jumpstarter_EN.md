@@ -17,7 +17,7 @@ In this section, I intend to analyse and revise one essential part of the instru
 
 This is the device in question: https://www.amazon.de/dp/B0D4J4P5FW?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
 
-![Jump Starter Titelblatt zugeschnitten.jpg](attachment:d95dd516-bf48-4f76-ae37-dfcf15c7991d:Jump_Starter_Titelblatt_zugeschnitten.jpg)
+![Jumpstarter Titelblatt](jumpstarter_title.jpg)
 
 ## 2. Original Instructions (Excerpt)
 
