@@ -280,11 +280,11 @@ If the request includes `format=json`, the response is returned in JSON format:
     2. An array of data records, each with `date`, `value`, and context fields
 - The GDP per capita for a specific year is under the `value` key of the matching `date`
 
-# **7. Error Handling and Edge Cases**
+## **7. Error Handling and Edge Cases**
 
 The World Bank API does not provide detailed error messages. However, some typical failure scenarios can occur:
 
-## 7.1 Invalid Indicator Code
+### 7.1 Invalid Indicator Code
 
 If the indicator code is incorrect (e.g. `NY.GDP.PCAP.WRONG`), the API returns an empty response:
 
@@ -298,7 +298,7 @@ In JSON, the same request returns an empty array `[]`.
 
 ---
 
-## 7.2 No Data Available
+### 7.2 No Data Available
 
 If no value exists for the requested year or country, the response contains a null value.
 
@@ -325,7 +325,7 @@ If no value exists for the requested year or country, the response contains a nu
 
 ---
 
-## 7.3 Pagination Issues
+### 7.3 Pagination Issues
 
 By default, the API limits results to 50 records per page. If the time series is longer, additional pages must be requested.
 
@@ -333,7 +333,7 @@ By default, the API limits results to 50 records per page. If the time series is
 
 ---
 
-## 7.4 HTTP Status Codes
+### 7.4 HTTP Status Codes
 
 The API uses standard HTTP status codes:
 
