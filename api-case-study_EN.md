@@ -201,3 +201,81 @@ GET https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD?date=2000:2
 ```
 
 This version adds the `format=json` parameter to the request.
+
+## **6. Response Interpretation and Documentation**
+
+### 6.1 XML Response (default)
+
+By default, the API returns data in XML format. Shortened example:
+
+```xml
+<data>
+  <page>1</page>
+  <pages>1</pages>
+  <per_page>500</per_page>
+  <total>32</total>
+  <indicator id="NY.GDP.PCAP.CD">GDP per capita (current US$)</indicator>
+  <country id="LV">Latvia</country>
+  <record>
+    <date>2020</date>
+    <value>17384.412</value>
+  </record>
+  <record>
+    <date>2019</date>
+    <value>18051.391</value>
+  </record>
+  <!-- ... -->
+</data>
+```
+
+**Explanation:**
+
+- `<indicator>` and `<country>` define the context
+- Each `<record>` contains one data point: `<date>` + `<value>`
+- Metadata elements (`<page>`, `<total>`) describe pagination and result size
+
+To find Latvia’s GDP per capita for a specific year, locate the `<record>` with the matching `<date>`.
+
+---
+
+### 6.2 JSON Response
+
+If the request includes `format=json`, the response is returned in JSON format:
+
+```json
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": "500",
+    "total": 32
+  },
+  [
+    {
+      "indicator": {
+        "id": "NY.GDP.PCAP.CD",
+        "value": "GDP per capita (current US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "date": "2020",
+      "value": 17384.412
+    },
+    {
+      "date": "2019",
+      "value": 18051.391
+      // indicator and country omitted for brevity
+    }
+    // ...
+  ]
+]
+```
+
+**Explanation:**
+
+- The JSON response has two elements:
+    1. An object with metadata (pagination, total results)
+    2. An array of data records, each with `date`, `value`, and context fields
+- The GDP per capita for a specific year is under the `value` key of the matching `date`
