@@ -128,7 +128,7 @@ The JSON response contains:
 - An **array of records**, each with indicator, country, date, and value
 - Note: some numeric fields (e.g. `"per_page"`) are returned as strings
 
-- ## 5. Use Case: Retrieve Latvia’s GDP per Capita
+## 5. Use Case: Retrieve Latvia’s GDP per Capita
 
 ### 5.1. Goal
 
