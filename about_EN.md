@@ -1,4 +1,4 @@
-#About 
+# About 
 
 I write to help people understand products and accomplish their goals.
 
