@@ -1,6 +1,6 @@
 # Case Study: Documenting GDP per Capita with the World Bank API
 
-# 1. Introduction
+## 1. Introduction
 
 This documentation shows how to retrieve Latvia’s GDP per capita using the World Bank API.
 
