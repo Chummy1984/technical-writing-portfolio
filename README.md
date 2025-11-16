@@ -8,7 +8,7 @@
 <br>
 
 ## Technical Documentation
-- 🇺🇸 [World Bank API Case Study](world-bank-api_EN.md)
+- 🇺🇸 [World Bank API Case Study](api-case-study_EN.md)
 - 🇩🇪 [Sichere Anwendung eines Starthilfegeräts](jumpstarter_DE.md)
 - 🇺🇸 [Safe Use of a Jump Starter](jumpstarter_EN.md)
 - 🇩🇪 [Bedienungsanleitung Lichtwecker](alarmclock_DE.md)
