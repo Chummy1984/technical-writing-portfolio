@@ -5,7 +5,7 @@
 ### I look forward to contributing with technical and UX writing that makes complex products clear, easy, and pleasant to use!
 
 ### Kontakt · Contact: [angermann.anna@yahoo.de](mailto:angermann.anna@yahoo.de)
-<br><br><br>
+<br><br>
 ## Technical Documentation
 - 🇺🇸 [World Bank API Case Study](world-bank-api_EN.md)
 - 🇩🇪 [Sichere Anwendung eines Starthilfegeräts](jumpstarter_DE.md)
