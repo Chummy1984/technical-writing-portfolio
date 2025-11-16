@@ -279,3 +279,65 @@ If the request includes `format=json`, the response is returned in JSON format:
     1. An object with metadata (pagination, total results)
     2. An array of data records, each with `date`, `value`, and context fields
 - The GDP per capita for a specific year is under the `value` key of the matching `date`
+
+# **7. Error Handling and Edge Cases**
+
+The World Bank API does not provide detailed error messages. However, some typical failure scenarios can occur:
+
+## 7.1 Invalid Indicator Code
+
+If the indicator code is incorrect (e.g. `NY.GDP.PCAP.WRONG`), the API returns an empty response:
+
+```xml
+<data/>
+```
+
+In JSON, the same request returns an empty array `[]`.
+
+**Interpretation:** Check the indicator code. If invalid, adjust and retry.
+
+---
+
+## 7.2 No Data Available
+
+If no value exists for the requested year or country, the response contains a null value.
+
+**Example JSON (excerpt):**
+
+```json
+[
+  {
+    "date": "2021",
+    "value": null}
+]
+```
+
+**Example XML:**
+
+```xml
+<record>
+  <date>2021</date>
+  <value xsi:nil="true"/>
+</record>
+```
+
+**Interpretation:** The data for this year has not yet been published.
+
+---
+
+## 7.3 Pagination Issues
+
+By default, the API limits results to 50 records per page. If the time series is longer, additional pages must be requested.
+
+**Recommendation:** Always set `per_page=500` (maximum allowed value) to receive the full series in one response.
+
+---
+
+## 7.4 HTTP Status Codes
+
+The API uses standard HTTP status codes:
+
+- `200 OK`: Request successful, data returned
+- `400 Bad Request`: Invalid parameter (e.g. wrong indicator or country code)
+- `404 Not Found`: The resource does not exist (wrong URL)
+- `500 Internal Server Error`: Temporary problem on the World Bank server
