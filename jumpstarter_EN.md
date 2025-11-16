@@ -1,6 +1,6 @@
 # **Sichere Anwendung eines Starthilfegeräts (Tutorial & Normen)**
 
-# Überblick
+## Überblick
 
 1. **Kontext**
 2. **Originalanleitung (Auszug)**
@@ -9,7 +9,7 @@
 5. **Überarbeitete Anleitung**
 6. **Fazit**
 
-# 1. Kontext
+## 1. Kontext
 
 Nachdem mein Auto liegen geblieben war, erwarb ich ein Starthilfegerät, um die Zeit bis zum Austausch der Batterie zu überbrücken. Beim ersten Einsatz fiel mir auf, dass wesentliche Teile der Anleitung nicht nur fehlerhaft und unvollständig sind, sondern sogar ein Sicherheitsrisiko für Anwender und Fahrzeug darstellen.
 
@@ -19,17 +19,17 @@ Es geht um dieses Gerät: https://www.amazon.de/dp/B0D4J4P5FW?ref=ppx_yo2ov_dt_b
 
 ![Jump Starter Titelblatt zugeschnitten.jpg](attachment:b273a1d3-9ec3-4a01-b4e6-4618e43c5fa9:Jump_Starter_Titelblatt_zugeschnitten.jpg)
 
-# **2. Originalanleitung (Auszug)**
+## **2. Originalanleitung (Auszug)**
 
 Im Folgenden ist ein Auszug aus der Originalanleitung abgebildet. Die Schritte 1 bis 5 zeigen, wie das Starthilfegerät verwendet werden soll. Dieser Auszug dient als Grundlage für die anschließende Analyse und Überarbeitung.
 
 ![Jump Starter Deutsch zugeschnitten.jpg](attachment:f0eb5fd5-93bd-4c6e-a3bf-b687961f28a1:Jump_Starter_Deutsch_zugeschnitten.jpg)
 
-# **3. Analyse der Schwächen**
+## **3. Analyse der Schwächen**
 
 Die folgende Analyse zeigt die zentralen Schwächen der Originalanleitung auf. Betrachtet werden formale Aspekte, inhaltliche Mängel sowie sicherheitsrelevante Lücken, die die Nutzbarkeit und Konformität beeinträchtigen können.
 
-### Formelle Probleme
+#### Formelle Probleme
 
 - **Inkonsistenter Stil**: Mischung aus Befehlsform („Starten Sie das Auto“) und beschreibenden Aussagen („Wenn die grüne Kontrollleuchte immer leuchtet …“).
 - **Unklare Begriffe**: „Drahtclip“ ist kein gängiger Begriff und verharmlost ein sicherheitsrelevantes Bauteil; „Smart Battery Clamp“ wird nicht erklärt. „Pol“ statt „Anschluss“ wirkt unpräzise und ist für Laien schwerer verständlich.
@@ -37,13 +37,13 @@ Die folgende Analyse zeigt die zentralen Schwächen der Originalanleitung auf. B
 - **Formatierung**: Wichtige Elemente (Plus/Minus, LED-Farben) sind nicht hervorgehoben.
 - **Rechtschreibung/Grammatik**: Mehrere kleine Fehler, die das professionelle Erscheinungsbild schwächen und die Verständlichkeit beeinträchtigen.
 
-### Inhaltliche Probleme
+#### Inhaltliche Probleme
 
 - **Unvollständig**: Es fehlt eine klare Anweisung zur Reihenfolge beim Abklemmen. Dadurch besteht die Gefahr, dass Nutzer falsch abklemmen und Funken direkt an der Batterie entstehen.
 - **Uneinheitlich**: Schritt 2 verweist auf rot/grün blinkende LEDs, Schritt 3 auf eine dauerhaft grüne LED – ohne klare Erklärung des Unterschieds.
 - **Kein Troubleshooting im abgebildeten Auszug**: In den dargestellten Schritten fehlen Hinweise, was bei Fehlstart, falscher LED-Anzeige oder Kontaktproblemen zu tun ist. Für Anwender wäre an dieser Stelle zumindest ein Verweis auf eine Fehlerbehebung hilfreich.
 
-### Sicherheitsprobleme
+#### Sicherheitsprobleme
 
 - **Fehlende Warnhinweise**: Keine Hinweise auf Kurzschluss-, Funken- oder Verpolungsgefahr.
 - **Keine Abfolge beim Abklemmen**: „Bitte entfernen Sie den Drahtclip innerhalb von 30 Sekunden“ ist vage, technisch unsinnig und potenziell riskant.
@@ -51,7 +51,7 @@ Die folgende Analyse zeigt die zentralen Schwächen der Originalanleitung auf. B
 - **Nutzer-Sicherheit**: Keine Empfehlungen zu Schutzausrüstung (Handschuhe, Schutzbrille).
 - **Verpolung**: Die Anleitung enthält keine explizite Warnung vor falschem Anschluss (rot an –, schwarz an +), obwohl dies im Ernstfall gravierende Schäden verursachen kann.
 
-# **4. Relevante Normen**
+## **4. Relevante Normen**
 
 Die folgende Tabelle zeigt einschlägige Normen und Richtlinien, die für technische Dokumentation relevant sind. Sie macht deutlich, welche Anforderungen in der Originalanleitung nicht erfüllt werden und warum daraus Sicherheits- und Konformitätsrisiken entstehen.
 
@@ -63,11 +63,11 @@ Die folgende Tabelle zeigt einschlägige Normen und Richtlinien, die für techni
 | **Niederspannungsrichtlinie 2014/35/EU** | Sichere Bedienungsanleitungen für elektrische Betriebsmittel | Keine Hinweise auf Stromschlag-, Kurzschluss- oder Brandgefahr |
 | **Produktsicherheitsgesetz (ProdSG, Deutschland)** | Produkte dürfen nur mit sicheren, vollständigen Anleitungen vertrieben werden | Anleitung unvollständig, kann Fehlbedienung und Schäden verursachen |
 
-# **5. Überarbeitete Anleitung**
+## **5. Überarbeitete Anleitung**
 
 Die Originalanleitung enthielt unklare Begriffe, inkonsistente Formulierungen und sicherheitsrelevante Lücken. Die folgende überarbeitete Fassung bietet eine klare Schritt-für-Schritt-Anleitung, die die Verständlichkeit erhöht, gängigen Sicherheitsnormen entspricht und Risiken für Anwender und Fahrzeug reduziert.
 
-### So starten Sie Ihr Auto mit dem Starthilfegerät
+#### So starten Sie Ihr Auto mit dem Starthilfegerät
 
 1. **Ladezustand prüfen**
     
@@ -103,7 +103,7 @@ Die Originalanleitung enthielt unklare Begriffe, inkonsistente Formulierungen un
         ⚠️ **VORSICHT** – Halten Sie die Klemmen stets voneinander fern und vermeiden Sie Kontakt mit metallischen Fahrzeugteilen.
         
 
-# **6. Fazit**
+## **6. Fazit**
 
 Mit dieser Fallstudie habe ich gezeigt, wie ich eine fehlerhafte und potenziell riskante Originalanleitung analysiere, Schwächen herausarbeite und sie Schritt für Schritt in eine klare, konsistente und sicherheitsorientierte Anleitung überführe. Dabei habe ich anerkannte Dokumentationsstandards berücksichtigt und die Risiken für Anwender und Fahrzeug gezielt reduziert.
 
