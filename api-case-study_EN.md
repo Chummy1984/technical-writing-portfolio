@@ -341,3 +341,42 @@ The API uses standard HTTP status codes:
 - `400 Bad Request`: Invalid parameter (e.g. wrong indicator or country code)
 - `404 Not Found`: The resource does not exist (wrong URL)
 - `500 Internal Server Error`: Temporary problem on the World Bank server
+
+## 8. Best Practices for Using the World Bank API
+
+When working with the World Bank API, the following practices help ensure reliable and efficient results:
+
+- **Set `per_page=500`:**
+    
+    Avoid pagination by requesting the entire time series in one response.
+    
+- **Choose the right format:**
+    
+    JSON is easier to parse in most programming environments and integrates well with data analysis tools.
+    
+    XML may be preferred in organisations that use schema validation or have existing XML-based workflows.
+    
+- **Specify a date range:**
+    
+    Use `date=YYYY:YYYY` to limit the dataset to relevant years.
+    
+    This reduces response size and makes the output easier to handle.
+    
+- **Check for null values:**
+    
+    Some years may not have published data.
+    In JSON this appears as `"value": null`, in XML as `<value xsi:nil="true"/>`
+    
+    **Why it matters:**
+    
+    – Prevents calculation errors in analysis (e.g. averages, growth rates).
+    
+    – Avoids misleading visualisations (null interpreted as 0).
+    
+    – Helps distinguish between “no data yet” and “real numeric value”.
+    
+- **Verify codes:**
+    
+    Make sure the **country code** (e.g. `LV`) and the **indicator code** (e.g. `NY.GDP.PCAP.CD`) are correct before sending the request.
+    
+    Typos result in empty responses.
