@@ -403,3 +403,18 @@ GET https://api.worldbank.org/v2/country/DE/indicator/SP.POP.TOTL?date=2010:2020
 This demonstrates how the same request structure can be reused across multiple indicators and countries.
 
 As a result, the World Bank API offers a consistent and flexible way to access diverse economic and demographic data.
+
+## 10. Conclusion
+
+This case study demonstrated how to construct a request to the World Bank API, interpret both XML and JSON responses, and apply best practices for reliable results.
+
+Key insights include:
+
+- The API’s response structure is predictable and can be applied across different datasets.
+- JSON is generally easier for analysis, while XML may be required in specific workflows.
+- Null values and pagination must be handled carefully to avoid errors.
+- By adjusting country and indicator codes, the same method can be extended to a wide range of economic and demographic indicators.
+
+Overall, the World Bank API is an accessible and robust resource for retrieving time series data.
+
+With clear documentation and attention to best practices, it can be seamlessly integrated into research, reporting, and data-driven applications.
