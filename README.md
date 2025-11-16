@@ -7,7 +7,7 @@
 ### Kontakt · Contact: [angermann.anna@yahoo.de](mailto:angermann.anna@yahoo.de)
 <br>
 
-### Technical Documentation
+## Technical Documentation
 - 🇺🇸 [World Bank API Case Study](world-bank-api_EN.md)
 - 🇩🇪 [Sichere Anwendung eines Starthilfegeräts](jumpstarter_DE.md)
 - 🇺🇸 [Safe Use of a Jump Starter](jumpstarter_EN.md)
