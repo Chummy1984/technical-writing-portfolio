@@ -17,6 +17,6 @@
 ## UX Writing
 - 🇺🇸 [Audible Germany: Inconsistent Offer Communication](audible_EN.md)
 
-## About Me
+## About 
 - 🇩🇪 [Über mich](about_DE.md)
 - 🇺🇸 [About](about_EN.md)
