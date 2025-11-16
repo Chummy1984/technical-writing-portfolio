@@ -13,7 +13,7 @@ The data is returned as a time series covering multiple years.
 The API supports both XML (default) and JSON. No authentication is required.
 
 In this documentation, I focus on structure and readability.
-# 2. Endpoint and Response Format
+## 2. Endpoint and Response Format
 
 To retrieve GDP per capita data for Latvia, use the following endpoint:
 
