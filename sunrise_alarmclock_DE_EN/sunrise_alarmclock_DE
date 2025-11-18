@@ -1,165 +1,137 @@
-#Bedienungsanleitung Lichtwecker
+# Bedienungsanleitung Lichtwecker
 
-#Überblick
+# Überblick
 
 1. **Kontext**
 2. **Ziel**
-3. **Produktübersicht**
-    
-    3.1.  Analyse der Produktübersicht
-    
-    3.2.  Überarbeitete Produktübersicht
-    
-4. **Inhaltsverzeichnis**
-    
-    4.1. Analyse des Inhaltsverzeichnisses 
-    
-    4.2. Überarbeitetes Inhaltsverzeichnis 
-    
-5. **Produkteinstellung und -wartung** 
-    
-    5.1.  Analyse des Abschnitts „Produkteinstellung und -wartung“ ****
-    
-    5.2. Überarbeiteter Abschnitt „Produkteinstellung und -wartung“ 
-    
+3. **Produktübersicht**  
+   3.1. Analyse der Produktübersicht  
+   3.2. Überarbeitete Produktübersicht
+4. **Inhaltsverzeichnis**  
+   4.1. Analyse des Inhaltsverzeichnisses  
+   4.2. Überarbeitetes Inhaltsverzeichnis
+5. **Produkteinstellung und -wartung**  
+   5.1. Analyse des Abschnitts „Produkteinstellung und -wartung“  
+   5.2. Überarbeiteter Abschnitt „Produkteinstellung und -wartung“
 6. **Fazit**
 
 # 1. Kontext
 
 Ich habe den Lichtwecker selbst gekauft. Schnell habe ich gemerkt: Die Anleitung ist schwer verständlich, unübersichtlich und sprachlich uneinheitlich. Sie richtet sich **nicht** an erwachsene Nutzer ohne Technikaffinität. Begriffe bleiben unklar, der Nutzungsfluss fehlt.
 
-Als Technical Writer habe ich einige Schwächen ****exemplarisch analysiert und behoben. 
+Als Technical Writer habe ich einige Schwächen exemplarisch analysiert und behoben.
 
-Es handelt sich um diesen Wecker:
+Es handelt sich um diesen Wecker:  
+https://www.amazon.de/dp/B0DCG3YP3T?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1
 
- https://www.amazon.de/dp/B0DCG3YP3T?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1
-
-![Titelblatt Lichtwecker klein.jpg](attachment:38d544e2-d70b-43aa-b7c9-e0947bdb231d:Titelblatt_Lichtwecker_klein.jpg)
+![Titelblatt Lichtwecker](pics/Titelblatt_Lichtwecker_klein.jpg)
 
 # 2. Ziel
 
-Mein Ziel ist es, Teile der Anleitung exemplarisch so umzugestalten, dass sie für erwachsene Nutzer ohne technische Vorkenntnisse verständlich, klar strukturiert und intuitiv nutzbar werden. Dabei liegt der Fokus auf einer logischen Gliederung, einheitlicher Terminologie und einer Sprache, die ohne Vorwissen auskommt, aber dennoch präzise erklärt und unterstützt. 
+Mein Ziel ist es, Teile der Anleitung exemplarisch so umzugestalten, dass sie für erwachsene Nutzer ohne technische Vorkenntnisse verständlich, klar strukturiert und intuitiv nutzbar werden. Dabei liegt der Fokus auf einer logischen Gliederung, einheitlicher Terminologie und einer Sprache, die ohne Vorwissen auskommt, aber dennoch präzise erklärt und unterstützt.
 
 # 3. Produktübersicht
 
-![Produktübersicht.jpg](attachment:ff811fac-24d8-44d4-9290-dc080f45a008:Produktbersicht.jpg)
+![Produktübersicht](pics/Produktuebersicht.jpg)
 
-## 3. 1. Analyse der Produktübersicht
+## 3.1. Analyse der Produktübersicht
 
 ### **Stärken**
 
-- Übersichtliche Zeichnung mit klarer Nummerierung
-- Funktionsliste vollständig zugeordnet
-- Die Reihenfolge folgt der physischen Anordnung am Gerät
+- Übersichtliche Zeichnung mit klarer Nummerierung  
+- Funktionsliste vollständig zugeordnet  
+- Reihenfolge folgt der physischen Anordnung am Gerät
 
 ### **Schwächen**
 
-- **Sprachlich uneinheitlich:** Mischung aus technischen und werblichen Begriffen („hochwertiger Lautsprecher“ vs. „Type-C-Eingang”)
-- **Sperrige Formulierungen:** z. B. „Lichthelligkeitssteuerungs-Rolle“
-- **Rechtschreibfehler:** z. B. „Alarm 1 Schalter“
-- **Fehler im Produktdesign:** Alarmtaste 2 liegt ganz links vor Alarmtaste 1, dadurch verwirrende, wenn auch korrekte Bezeichnung
+- **Sprachlich uneinheitlich:** Mischung aus technischen und werblichen Begriffen  
+- **Sperrige Formulierungen:** z. B. „Lichthelligkeitssteuerungs-Rolle“  
+- **Rechtschreibfehler:** z. B. „Alarm 1 Schalter“  
+- **Fehler im Produktdesign:** Alarmtaste 2 liegt links vor Alarmtaste 1
 
 ## 3.2. Überarbeitete Produktübersicht
 
-Zwar benennt die ursprüngliche Übersicht alle Bedienelemente, ist jedoch sprachlich uneinheitlich, teils sperrig formuliert und daher verwirrend. In der überarbeiteten Version habe ich die Begriffe vereinfacht, Doppelfunktionen klarer benannt und eine durchgängig funktionale, neutrale Sprache verwendet. Die Reihenfolge folgt nach wie vor der physischen Anordnung am Gerät. 
+Die ursprüngliche Übersicht benennt alle Bedienelemente, ist jedoch sprachlich uneinheitlich und teils sperrig. In der überarbeiteten Version wurden Begriffe vereinfacht, Doppelfunktionen klarer benannt und eine funktionale, neutrale Sprache verwendet. Die Reihenfolge folgt weiterhin der physischen Anordnung des Geräts.
 
-Der Fehler im Produktdesign lässt sich an dieser Stelle nicht beheben, so dass die Bezeichnung der Tasten 1 und 2 nutzerunfreundlich bleibt.
+Der Fehler im Produktdesign lässt sich nicht beheben, die Tastenbezeichnungen bleiben daher unlogisch.
 
 ### **Bedienelemente des Lichtweckers**
 
-1.  Alarm-2-Taste
-
-2. Alarm-1-Taste
-
-3. Helligkeitsregler
-
-4. Lichtmodus-Taste
-
-5. Lichteffekt-Taste
-
-6. Zeiteinstell- und Schlummer-Drehknopf
-
-7.  Bluetooth- und Display-Taste
-
-8.  Zeiteinstell- und Einschlaf-Taste
-
-9.  Lautstärkeregler
-
-10. Schlafgeräusch-Taste
-
-11. Melodie- und Naturklang-Taste
-
-12. Anschluss für USB-A-Kabel
-
-13. Anschluss für USB-C-Kabel
-
+1. Alarm-2-Taste  
+2. Alarm-1-Taste  
+3. Helligkeitsregler  
+4. Lichtmodus-Taste  
+5. Lichteffekt-Taste  
+6. Zeiteinstell- und Schlummer-Drehknopf  
+7. Bluetooth- und Display-Taste  
+8. Zeiteinstell- und Einschlaf-Taste  
+9. Lautstärkeregler  
+10. Schlafgeräusch-Taste  
+11. Melodie- und Naturklang-Taste  
+12. Anschluss für USB-A-Kabel  
+13. Anschluss für USB-C-Kabel  
 14. Lautsprecher
 
 # 4. Inhaltsverzeichnis
 
-![Inhaltsverzeichnis.jpg](attachment:89d96e3f-d3e0-4157-916a-92315e2798d5:Inhaltsverzeichnis.jpg)
+![Inhaltsverzeichnis](pics/Inhaltsverzeichnis.jpg)
 
 ## 4.1. Analyse des Inhaltsverzeichnisses
 
 ### **Stärken**
 
-- Nummerierung
-- Grundsätzliche logische Reihenfolge
-- Relevante Themen sind enthalten
+- Nummerierung  
+- Grundsätzlich logische Reihenfolge  
+- Relevante Themen enthalten
 
 ### **Schwächen**
 
-- **Unklare oder doppelte Begriffe:**
-    - *„Alarmschalter“* vs. *„Alarmeinstellung“ -* Unterschied nicht sofort erkennbar
-    - *„Schlaf-Timer-Einstellung“* vs. *„Schlafgeräusche“ -* könnten zusammengefasst oder klarer abgegrenzt werden
-- **Inkonsistente Terminologie:**
-    - „Bildschirmanzeige“ - besser „Display-Einstellungen“ für Einheitlichkeit mit „Zeitanzeige-Helligkeitseinstellung“
-    - „RGB-Beleuchtungsmodus“ - Warum nicht einfach „RGB-Licht“ wie in der Produktübersicht? (in der nicht überarbeiteten Version)
-- **Unklare Reihenfolge:**
-    - „Bluetooth-Modus“ könnte weiter nach oben gesetzt werden, da es eine Kernfunktion ist
-    - „Kontakt“ könnte besser als „Support & Kontakt“ bezeichnet werden
-- **Fehlender Abschnitt zur Fehlerbehebung oder den technischen Daten -** Kein eigener Bereich für Troubleshooting/FAQ.
+- **Unklare oder doppelte Begriffe**
+  - „Alarmschalter“ vs. „Alarmeinstellung“  
+  - „Schlaf-Timer-Einstellung“ vs. „Schlafgeräusche“
+- **Inkonsistente Terminologie**
+  - „Bildschirmanzeige“ vs. „Display-Einstellungen“  
+  - „RGB-Beleuchtungsmodus“ vs. „RGB-Licht“
+- **Unklare Reihenfolge**
+  - Bluetooth weiter oben sinnvoll  
+  - „Kontakt“ → „Support & Kontakt“
+- **Fehlende Rubriken**
+  - Keine Fehlerbehebung  
+  - Keine technischen Daten
 
 ## 4.2. Überarbeitetes Inhaltsverzeichnis
 
 ### **Inhalt**
 
-1. Produkteinstellung und -wartung
-2. Zeit- und Displayeinstellung
-3. Weckfunktionen und Schlummermodus
-4. Bluetooth-Modus
-5. Einschlaffunktionen
-6. Lichtfunktionen
-7. Fehlersuche und Problemlösung
-8. Technische Daten
+1. Produkteinstellung und -wartung  
+2. Zeit- und Displayeinstellung  
+3. Weckfunktionen und Schlummermodus  
+4. Bluetooth-Modus  
+5. Einschlaffunktionen  
+6. Lichtfunktionen  
+7. Fehlersuche und Problemlösung  
+8. Technische Daten  
 9. Support und Kontakt
 
 # 5. Produkteinstellung und -wartung
 
-![Produkteinstellung.jpg](attachment:ea9bca08-9f9f-48d8-b7ee-65317d574e55:Produkteinstellung.jpg)
+![Produkteinstellung](pics/Produkteinstellung.jpg)
 
-## **5.1 Analyse des Abschnitts „Produkteinstellung und -wartung“**
+## 5.1. Analyse des Abschnitts „Produkteinstellung und -wartung“
 
 ### **Stärken**
 
-- Behandelt die wesentlichen Themen wie Akku/Stromversorgung, Lagerung und Reinigung
-- Logische Reihenfolge: Erst Stromversorgung, dann Lagerung, dann Reinigung
-- Kompakte Absätze, was die Lesbarkeit erleichtert
+- Themen Stromversorgung, Lagerung, Reinigung abgedeckt  
+- Logische Reihenfolge  
+- Kompakte Absätze, gute Lesbarkeit
 
 ### **Schwächen**
 
-- **Falsche Bezeichnung: „Batterie“ vs. „Akku“**
-    - Es handelt sich um einen fest verbauten Akku, nicht um eine wechselbare Batterie
-    - Der Akku dient nur zur Speicherung der Einstellungen, nicht zum Weckerbetrieb
-- **Unklare oder umständliche Formulierungen**
-    - Der Satz „Es bedarf einer konstanten AC-Stromverbindung...“ ist zu technisch und unnötig kompliziert
-    - „AC-Stromverbindung“ könnte für Laien unverständlich sein. Besser: „Der Wecker muss ständig ans Stromnetz angeschlossen sein.“
-- **Fehlende oder unklare Informationen**
-    - Akkufunktion nicht ausreichend erklärt: Wie lange speichert der Akku Einstellungen bei Stromausfall?
-    - Lagerungshinweise sind zu allgemein: Keine Angaben zu Temperatur oder Feuchtigkeit.
-    - Reinigungshinweise nennen keine Alternativen zu aggressiven Reinigungsmitteln: Welche Materialien sind sicher?
+- **Begrifflich falsch:** „Batterie“ statt „Akku“  
+- **Unklare Formulierungen** („AC-Stromverbindung“)  
+- **Fehlende Informationen:** Akkulaufzeit, Lagerbedingungen, sichere Reinigungsmaterialien
 
-## 5.2. Überarbeiteter **Abschnitt „Produkteinstellung und -wartung“**
+## 5.2. Überarbeiteter Abschnitt „Produkteinstellung und -wartung“
 
 ### **Produkteinstellung und Wartung**
 
@@ -167,20 +139,17 @@ Wenn Sie das Produkt erstmalig verwenden, verbinden Sie das mitgelieferte USB-Ka
 
 Der Wecker benötigt eine konstante Stromverbindung.
 
-1. Akku-Inbetriebnahme
+1. **Akku-Inbetriebnahme**  
+   Der Wecker hat einen vorab installierten Akku. Entfernen Sie vor Gebrauch den Isolieraufkleber. Der Akku sichert Ihre Einstellungen bei Stromausfall.
 
-Der Wecker hat einen vorab installierten Akku. Entfernen Sie vor Gebrauch den Isolieraufkleber. Der Akku sichert Ihre Einstellungen, falls die Stromverbindung unterbrochen wird.
+2. **Produktlagerung**  
+   Lagern Sie den Wecker an einem kühlen, trockenen Ort. Vermeiden Sie direktes Sonnenlicht und Feuchtigkeit.
 
-1. Produktlagerung
-
-Lagern Sie den Wecker an einem kühlen und trockenen Ort. Vermeiden Sie direktes Sonnenlicht oder Feuchtigkeit.
-
-1. Produktreinigung
-
-Entfernen Sie Staub mit einem weichen, leicht feuchten Tuch. Verwenden Sie keine flüssigen oder scheuernden Reinigungsmittel.
+3. **Produktreinigung**  
+   Entfernen Sie Staub mit einem weichen, leicht feuchten Tuch. Verwenden Sie keine flüssigen oder scheuernden Reinigungsmittel.
 
 # 6. Fazit
 
-Diese exemplarische Überarbeitung zeigt, wie sich technische Inhalte durch klare Sprache, logische Gliederung und nutzerorientiertes Denken verbessern lassen. Auch ohne vollständige Neugestaltung der Anleitung wird die Nutzung für technisch weniger affine Zielgruppen deutlich erleichtert; natürlich müsste gegebenenfalls die gesamte Anleitung entsprechend angepasst werden. 
+Diese exemplarische Überarbeitung zeigt, wie sich technische Inhalte durch klare Sprache, logische Gliederung und nutzerorientiertes Denken verbessern lassen. Auch ohne vollständige Neugestaltung wird die Nutzung für technisch weniger affine Zielgruppen erleichtert. Eine vollständige Anleitung müsste entsprechend angepasst werden.
 
 Diese Kombination aus Analyse, Strukturarbeit und sprachlicher Vereinfachung bildet den Kern meiner Arbeitsweise als Technical Writer.
