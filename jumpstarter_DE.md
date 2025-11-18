@@ -23,7 +23,7 @@ Es geht um dieses Gerät: https://www.amazon.de/dp/B0D4J4P5FW?ref=ppx_yo2ov_dt_b
 
 Im Folgenden ist ein Auszug aus der Originalanleitung abgebildet. Die Schritte 1 bis 5 zeigen, wie das Starthilfegerät verwendet werden soll. Dieser Auszug dient als Grundlage für die anschließende Analyse und Überarbeitung.
 
-<img src="pics/Jumpstarter_start_DE.jpg" width="300">
+<img src="pics/Jumpstarter_start_DE.jpg" width="400">
 
 ## **3. Analyse der Schwächen**
 
