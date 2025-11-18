@@ -17,13 +17,13 @@ In this section, I intend to analyse and revise one essential part of the instru
 
 This is the device in question: https://www.amazon.de/dp/B0D4J4P5FW?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
 
-![Jumpstarter title](jumpstarter_title.jpg)
+<img src="pics/jumpstarter_title.jpg" width="400">
 
 ## 2. Original Instructions (Excerpt)
 
 The following excerpt is taken from the original manual. Steps 1 to 5 illustrate how the jump starter is intended to be used. This excerpt serves as the basis for the subsequent analysis and revision.
 
-![Jumpstarter How to start](Jumpstarter_start_EN.jpg)
+<img src="pics/Jumpstarter_start_EN.jpg" width="400">
 
 ## 3. Analysis of Weaknesses
 
