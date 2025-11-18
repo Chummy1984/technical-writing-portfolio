@@ -1,6 +1,6 @@
 # Handling Inconsistent Offer Communication at Audible (Germany)
 
-# **1. Context**
+## **1. Context**
 
 Audible attempts to retain users by presenting subscription renewal offers. During regular app use, I encountered two different versions of the same feature without any explanation.
 
@@ -22,7 +22,7 @@ In addition, the app provides three different paths that lead to these subscript
 
 ![image.png](attachment:6359e86f-7445-431d-a4b1-a3be7daccf70:f286c1bb-ffd9-4d0d-8b24-f9f6ae36d526.png)
 
-# **2. Observations**
+## **2. Observations**
 
 - **Day 1**: I tapped on an offer. The headline said “Vielleicht überzeugt dich eines dieser Angebote, bei Audible zu bleiben:…” *(“Maybe one of these offers convinces you to stay with Audible:…”)* – but the page was completely empty.
 - **Day 2**: I tapped on a similar offer and saw the same headline, this time followed by a long list of discounts and subscription options.
@@ -32,21 +32,21 @@ In addition, the app provides three different paths that lead to these subscript
 
 ![image.png](attachment:b4796a4c-8a8a-4111-9997-985e269fed75:ac8dce76-81b5-4c63-ac25-2ce3649c30b9.png)
 
-# **3. Problems**
+## **3. Problems**
 
 - **Expectation gap**: The headline sets a promise, but sometimes delivers nothing.
 - **Inconsistency**: Users face radically different outcomes (empty vs. overloaded).
 - **Confusion**: Without explanation, users cannot know whether they did something wrong, whether the app failed, or whether no offers exist.
 - **Trust issue**: Inconsistent states reduce credibility and leave users frustrated.
 
-# **4. Potential Causes**
+## **4. Potential Causes**
 
 - Dynamic content loading without a proper fallback message.
 - Possible device or connectivity issue not handled by the UI.
 - Marketing copy written without considering error or empty states.
 - Lack of testing beyond the “happy path.”
 
-# **5. Proposed Rewrite of the Empty State**
+## **5. Proposed Rewrite of the Empty State**
 
 **Deutsch:** 
 
@@ -56,14 +56,14 @@ In addition, the app provides three different paths that lead to these subscript
 
 *”At the moment, there are no special offers for you. Check back soon or explore thousands of titles in the catalog anytime.”*
 
-# **6. Impact**
+## **6. Impact**
 
 - Honest and transparent communication reduces confusion.
 - Clear fallback messaging prevents users from blaming themselves for technical issues.
 - Consistency across states builds trust and creates a reliable user experience.
 - Alignment with Audible’s brand voice (e.g., using established phrases like “Tausende Titel”) ensures that rewrites feel natural, familiar, and credible to users.
 
-# 7. Conclusion
+## 7. Conclusion
 
 This case study illustrates how inconsistent states, whether caused by system errors, device glitches, or incomplete content design, undermine user trust. When users encounter an empty page after a promising headline, they are left confused and may even blame themselves.
 
