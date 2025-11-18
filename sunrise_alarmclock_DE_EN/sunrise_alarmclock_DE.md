@@ -1,6 +1,6 @@
 # Bedienungsanleitung Lichtwecker
 
-# Überblick
+## Überblick
 
 1. **Kontext**
 2. **Ziel**
@@ -15,7 +15,7 @@
    5.2. Überarbeiteter Abschnitt „Produkteinstellung und -wartung“
 6. **Fazit**
 
-# 1. Kontext
+## 1. Kontext
 
 Ich habe den Lichtwecker selbst gekauft. Schnell habe ich gemerkt: Die Anleitung ist schwer verständlich, unübersichtlich und sprachlich uneinheitlich. Sie richtet sich **nicht** an erwachsene Nutzer ohne Technikaffinität. Begriffe bleiben unklar, der Nutzungsfluss fehlt.
 
@@ -26,36 +26,36 @@ https://www.amazon.de/dp/B0DCG3YP3T?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1
 
 ![Titelblatt Lichtwecker](pics/Titelblatt_Lichtwecker_klein.jpg)
 
-# 2. Ziel
+## 2. Ziel
 
 Mein Ziel ist es, Teile der Anleitung exemplarisch so umzugestalten, dass sie für erwachsene Nutzer ohne technische Vorkenntnisse verständlich, klar strukturiert und intuitiv nutzbar werden. Dabei liegt der Fokus auf einer logischen Gliederung, einheitlicher Terminologie und einer Sprache, die ohne Vorwissen auskommt, aber dennoch präzise erklärt und unterstützt.
 
-# 3. Produktübersicht
+## 3. Produktübersicht
 
 ![Produktübersicht](pics/Produktuebersicht.jpg)
 
-## 3.1. Analyse der Produktübersicht
+### 3.1. Analyse der Produktübersicht
 
-### **Stärken**
+#### **Stärken**
 
 - Übersichtliche Zeichnung mit klarer Nummerierung  
 - Funktionsliste vollständig zugeordnet  
 - Reihenfolge folgt der physischen Anordnung am Gerät
 
-### **Schwächen**
+#### **Schwächen**
 
 - **Sprachlich uneinheitlich:** Mischung aus technischen und werblichen Begriffen  
 - **Sperrige Formulierungen:** z. B. „Lichthelligkeitssteuerungs-Rolle“  
 - **Rechtschreibfehler:** z. B. „Alarm 1 Schalter“  
 - **Fehler im Produktdesign:** Alarmtaste 2 liegt links vor Alarmtaste 1
 
-## 3.2. Überarbeitete Produktübersicht
+### 3.2. Überarbeitete Produktübersicht
 
 Die ursprüngliche Übersicht benennt alle Bedienelemente, ist jedoch sprachlich uneinheitlich und teils sperrig. In der überarbeiteten Version wurden Begriffe vereinfacht, Doppelfunktionen klarer benannt und eine funktionale, neutrale Sprache verwendet. Die Reihenfolge folgt weiterhin der physischen Anordnung des Geräts.
 
 Der Fehler im Produktdesign lässt sich nicht beheben, die Tastenbezeichnungen bleiben daher unlogisch.
 
-### **Bedienelemente des Lichtweckers**
+#### **Bedienelemente des Lichtweckers**
 
 1. Alarm-2-Taste  
 2. Alarm-1-Taste  
@@ -72,19 +72,19 @@ Der Fehler im Produktdesign lässt sich nicht beheben, die Tastenbezeichnungen b
 13. Anschluss für USB-C-Kabel  
 14. Lautsprecher
 
-# 4. Inhaltsverzeichnis
+## 4. Inhaltsverzeichnis
 
 ![Inhaltsverzeichnis](pics/Inhaltsverzeichnis.jpg)
 
-## 4.1. Analyse des Inhaltsverzeichnisses
+### 4.1. Analyse des Inhaltsverzeichnisses
 
-### **Stärken**
+#### **Stärken**
 
 - Nummerierung  
 - Grundsätzlich logische Reihenfolge  
 - Relevante Themen enthalten
 
-### **Schwächen**
+#### **Schwächen**
 
 - **Unklare oder doppelte Begriffe**
   - „Alarmschalter“ vs. „Alarmeinstellung“  
@@ -99,9 +99,9 @@ Der Fehler im Produktdesign lässt sich nicht beheben, die Tastenbezeichnungen b
   - Keine Fehlerbehebung  
   - Keine technischen Daten
 
-## 4.2. Überarbeitetes Inhaltsverzeichnis
+### 4.2. Überarbeitetes Inhaltsverzeichnis
 
-### **Inhalt**
+#### **Inhalt**
 
 1. Produkteinstellung und -wartung  
 2. Zeit- und Displayeinstellung  
@@ -113,27 +113,27 @@ Der Fehler im Produktdesign lässt sich nicht beheben, die Tastenbezeichnungen b
 8. Technische Daten  
 9. Support und Kontakt
 
-# 5. Produkteinstellung und -wartung
+## 5. Produkteinstellung und -wartung
 
 ![Produkteinstellung](pics/Produkteinstellung.jpg)
 
-## 5.1. Analyse des Abschnitts „Produkteinstellung und -wartung“
+### 5.1. Analyse des Abschnitts „Produkteinstellung und -wartung“
 
-### **Stärken**
+#### **Stärken**
 
 - Themen Stromversorgung, Lagerung, Reinigung abgedeckt  
 - Logische Reihenfolge  
 - Kompakte Absätze, gute Lesbarkeit
 
-### **Schwächen**
+#### **Schwächen**
 
 - **Begrifflich falsch:** „Batterie“ statt „Akku“  
 - **Unklare Formulierungen** („AC-Stromverbindung“)  
 - **Fehlende Informationen:** Akkulaufzeit, Lagerbedingungen, sichere Reinigungsmaterialien
 
-## 5.2. Überarbeiteter Abschnitt „Produkteinstellung und -wartung“
+### 5.2. Überarbeiteter Abschnitt „Produkteinstellung und -wartung“
 
-### **Produkteinstellung und Wartung**
+#### **Produkteinstellung und Wartung**
 
 Wenn Sie das Produkt erstmalig verwenden, verbinden Sie das mitgelieferte USB-Kabel zuerst mit dem USB-C-Anschluss des Weckers und anschließend mit einem Netzadapter.
 
@@ -148,7 +148,7 @@ Der Wecker benötigt eine konstante Stromverbindung.
 3. **Produktreinigung**  
    Entfernen Sie Staub mit einem weichen, leicht feuchten Tuch. Verwenden Sie keine flüssigen oder scheuernden Reinigungsmittel.
 
-# 6. Fazit
+## 6. Fazit
 
 Diese exemplarische Überarbeitung zeigt, wie sich technische Inhalte durch klare Sprache, logische Gliederung und nutzerorientiertes Denken verbessern lassen. Auch ohne vollständige Neugestaltung wird die Nutzung für technisch weniger affine Zielgruppen erleichtert. Eine vollständige Anleitung müsste entsprechend angepasst werden.
 
