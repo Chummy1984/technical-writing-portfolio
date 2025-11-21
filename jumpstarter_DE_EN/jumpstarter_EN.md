@@ -23,7 +23,7 @@ This is the device in question: https://www.amazon.de/dp/B0D4J4P5FW?ref=ppx_yo2o
 
 The following excerpt is taken from the original manual. Steps 1 to 5 illustrate how the jump starter is intended to be used. This excerpt serves as the basis for the subsequent analysis and revision.
 
-<img src="pics/Jumpstarter_start_EN.jpg" width="400">
+<img src="../images/Jumpstarter_start_EN.jpg" width="400">
 
 ## 3. Analysis of Weaknesses
 
