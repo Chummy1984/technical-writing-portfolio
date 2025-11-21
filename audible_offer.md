@@ -26,9 +26,8 @@ In addition, the app provides three different paths that lead to these subscript
 - **Day 2**: I tapped on a similar offer and saw the same headline, this time followed by a long list of discounts and subscription options.
 - Since then, I have only seen the “full” version again. This raises the question: Was the empty state caused by a system/server glitch, a device issue, or by design?
 
-![image.png](attachment:5e8c8f8a-ab2d-40a6-8de5-ef12371fc5bd:b590c221-64af-4820-b273-12d67d108d6c.png)
-
-![image.png](attachment:b4796a4c-8a8a-4111-9997-985e269fed75:ac8dce76-81b5-4c63-ac25-2ce3649c30b9.png)
+<img src="images/audible_offer_01.png" width="300"><br><br>
+<img src="images/audible_offer_02.png" width="300">
 
 ## **3. Problems**
 
