@@ -16,9 +16,9 @@ In another instance, the message used slightly different wording:
 
 In addition, the app provides three different paths that lead to these subscription offers, which creates inconsistency in the overall user experience.
 
-<img src="../images/audible_abo_01.png" width="300"><br><br>
-<img src="../images/audible_abo_02.png" width="300"><br><br>
-<img src="../images/audible_abo_03.png" width="300">
+<img src="images/audible_abo_01.png" width="300"><br><br>
+<img src="images/audible_abo_02.png" width="300"><br><br>
+<img src="images/audible_abo_03.png" width="300">
 
 ## **2. Observations**
 
