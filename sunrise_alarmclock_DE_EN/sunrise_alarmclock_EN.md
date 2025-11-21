@@ -32,7 +32,7 @@ As a technical writer, I analyzed some of the weaknesses exemplarily and reworke
 
 This is the device in question:https://www.amazon.de/dp/B0DCG3YP3T?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1
 
-![Titelblatt englisch.jpg](attachment:cb5b587a-95bf-448f-934a-bbbeba611adc:Titelblatt_englisch.jpg)
+<img src="../images/alarmclock_title_EN.jpg" width="400">
 
 ## 2. Objective
 
@@ -40,7 +40,7 @@ My goal was to revise selected parts of the manual to make them more accessible,
 
 ## 3. Product Overview
 
-![Product overview.jpg](attachment:1f5089ab-1a66-4ced-8885-02beb396df2c:Product_overview.jpg)
+<img src="../images/alarmclock_productoverview_EN.jpg" width="800">
 
 ### 3.1. Analysis of the Original Control Overview
 
@@ -82,7 +82,7 @@ The product design flaw cannot be corrected here, which means the labeling remai
 
 ## 4. Table of Contents
 
-![Contents only.jpg](attachment:9608dfae-80d7-41d1-b572-01aff5ed9522:Contents_only.jpg)
+<img src="../images/alarmclock_contents_EN.jpg" width="400">
 
 ### 4.1. Analysis of the Original Table of Contents
 
