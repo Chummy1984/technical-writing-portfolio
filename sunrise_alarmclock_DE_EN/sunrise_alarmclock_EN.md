@@ -1,4 +1,4 @@
-# Sun Rise Alarm Clock Instructions
+# Sunrise Alarm Clock Instructions
 
 ## Overview
 
