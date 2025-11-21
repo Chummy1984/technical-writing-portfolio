@@ -17,7 +17,7 @@ In this section, I intend to analyse and revise one essential part of the instru
 
 This is the device in question: https://www.amazon.de/dp/B0D4J4P5FW?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
 
-<img src="pics/jumpstarter_title.jpg" width="400">
+<img src="../images/jumpstarter_title.jpg" width="400">
 
 ## 2. Original Instructions (Excerpt)
 
