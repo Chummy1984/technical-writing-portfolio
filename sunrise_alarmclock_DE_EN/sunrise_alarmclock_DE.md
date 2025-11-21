@@ -74,7 +74,7 @@ Der Fehler im Produktdesign lässt sich nicht beheben, die Tastenbezeichnungen b
 
 ## 4. Inhaltsverzeichnis
 
-<img src="../../images/alarmclock_contents_DE.jpg" width="400">
+<img src="../images/alarmclock_contents_DE.jpg" width="400">
 
 ### 4.1. Analyse des Inhaltsverzeichnisses
 
