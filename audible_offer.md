@@ -27,7 +27,7 @@ In addition, the app provides three different paths that lead to these subscript
 - Since then, I have only seen the “full” version again. This raises the question: Was the empty state caused by a system/server glitch, a device issue, or by design?
 
 <img src="images/audible_offer_01.png" width="300"><br><br>
-<img src="images/audible_offer_02.png" width="300">
+<img src="images/audible_offer_02.jpg" width="300">
 
 ## **3. Problems**
 
