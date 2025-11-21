@@ -1,4 +1,4 @@
-# Portfolio by Dr. Anna K. Angermann
+# Portfolio Dr. Anna K. Angermann
 
 ### Ich freue mich darauf, mit Technical- und UX-Writing dazu beizutragen, komplexe Produkte verständlich, leicht und angenehm nutzbar zu machen!
 
@@ -12,7 +12,7 @@
 - 🇩🇪 [Sichere Anwendung eines Starthilfegeräts](jumpstarter_DE.md)
 - 🇺🇸 [Safe Use of a Jump Starter](jumpstarter_EN.md)
 - 🇩🇪 [Bedienungsanleitung Lichtwecker](alarmclock_DE.md)
-- 🇺🇸 [Sun Rise Alarm Clock Instructions](alarmclock_EN.md)
+- 🇺🇸 [Sunrise Alarm Clock Instructions](alarmclock_EN.md)
 
 ## UX Writing
 - 🇺🇸 [Audible Germany: Inconsistent Offer Communication](audible_EN.md)
