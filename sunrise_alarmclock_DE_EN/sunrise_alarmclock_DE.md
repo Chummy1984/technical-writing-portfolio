@@ -24,7 +24,7 @@ Als Technical Writer habe ich einige Schw채chen exemplarisch analysiert und beho
 Es handelt sich um diesen Wecker:  
 https://www.amazon.de/dp/B0DCG3YP3T?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1
 
-![Titelblatt Lichtwecker](pics/Titelblatt_Lichtwecker_klein.jpg)
+<img src="../images/alarmclock_title_DE.jpg" width="400">
 
 ## 2. Ziel
 
@@ -32,7 +32,7 @@ Mein Ziel ist es, Teile der Anleitung exemplarisch so umzugestalten, dass sie f�
 
 ## 3. Produkt체bersicht
 
-![Produkt체bersicht](pics/Produktuebersicht.jpg)
+<img src="../images/alarmclock_productoverview_DE.jpg" width="800">
 
 ### 3.1. Analyse der Produkt체bersicht
 
@@ -74,7 +74,7 @@ Der Fehler im Produktdesign l채sst sich nicht beheben, die Tastenbezeichnungen b
 
 ## 4. Inhaltsverzeichnis
 
-![Inhaltsverzeichnis](pics/Inhaltsverzeichnis.jpg)
+<img src="../images/alarmclock_contents_DE.jpg" width="400">
 
 ### 4.1. Analyse des Inhaltsverzeichnisses
 
