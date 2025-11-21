@@ -16,11 +16,9 @@ In another instance, the message used slightly different wording:
 
 In addition, the app provides three different paths that lead to these subscription offers, which creates inconsistency in the overall user experience.
 
-![image.png](attachment:a5a614c5-54a6-4cf0-95b3-046cc8c4e2b5:c96eee0f-ecef-409d-883b-36817735d19e.png)
-
-![image.png](attachment:fbffe5b0-5c80-44df-a8b6-8c61e6ff9e92:b4af1848-77bb-49d4-820b-8715b20239fe.png)
-
-![image.png](attachment:6359e86f-7445-431d-a4b1-a3be7daccf70:f286c1bb-ffd9-4d0d-8b24-f9f6ae36d526.png)
+<img src="../images/audible_abo_01.png" width="300"><br><br>
+<img src="../images/audible_abo_02.png" width="300"><br><br>
+<img src="../images/audible_abo_03.png" width="300">
 
 ## **2. Observations**
 
