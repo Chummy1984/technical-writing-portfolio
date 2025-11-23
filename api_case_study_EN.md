@@ -1,8 +1,9 @@
+# Case Study: Documenting GDP per Capita with the World Bank API
+
 **tl;dr**
 - Explains how to retrieve GDP per capita via the World Bank API
 - Focus: endpoint structure, JSON responses, clear example requests
 - Demonstrates API logic, technical clarity, and developer-facing documentation skills
-# Case Study: Documenting GDP per Capita with the World Bank API
 
 ## 1. Introduction
 
