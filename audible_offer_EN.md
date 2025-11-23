@@ -1,5 +1,10 @@
 # Handling Inconsistent Offer Communication at Audible (Germany)
 
+## **tl;dr**
+- Analysis of inconsistent offer communication at Audible Germany
+- Identifies UX and messaging issues affecting user understanding and trust
+- Provides clearer, more consistent user-facing copy
+
 ## **1. Context**
 
 Audible attempts to retain users by presenting subscription renewal offers. During regular app use, I encountered two different versions of the same feature without any explanation.
