@@ -1,4 +1,4 @@
-# **Sichere Anwendung eines Starthilfegeräts (Tutorial & Normen)**
+# **Sichere Anwendung eines Starthilfegeräts**
 
 ## Überblick
 
