@@ -1,28 +1,9 @@
 # Sunrise Alarm Clock Instructions
 
-## Overview
-
-1. **Context**
-2. **Objective**
-3. **Product Overview**
-    
-    3.1.  Analysis of the Original Control Overview
-    
-    3.2.  Revised Control Overview
-    
-4. **Table of Contents**
-    
-    4.1.  Analysis of the Original Table of Contents 
-    
-    4.2. Revised Table of Contents 
-    
-5. **Product Setting and Maintenance**
-    
-    5.1.  Analysis of the “Product Setup and Maintenance” Section
-    
-    5.2.  Revised “Product Setup and Maintenance” Section
-    
-6. **Conclusion**
+## **tl;dr**
+- User guide for a sunrise alarm clock (consumer device)
+- Focus: clear UI explanation and simple, structured step-by-step instructions
+- Bilingual sample (DE/EN)
 
 ## 1. Context
 
