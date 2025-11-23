@@ -1,13 +1,9 @@
 # **Sichere Anwendung eines Starthilfegeräts**
 
-## Überblick
-
-1. **Kontext**
-2. **Originalanleitung (Auszug)**
-3. **Analyse der Schwächen**
-4. **Relevante Normen**
-5. **Überarbeitete Anleitung**
-6. **Fazit**
+## **tl;dr**
+- Sicherheitshinweise und Schritt-für-Schritt-Anleitung zur Verwendung eines Starthilfegeräts
+- Fokus: klare Struktur, Risikominimierung, verständliche Nutzerführung
+- Zweisprachiges Sample (DE/EN)
 
 ## 1. Kontext
 
