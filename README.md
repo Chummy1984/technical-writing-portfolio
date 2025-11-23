@@ -5,7 +5,7 @@
 ### I create technical and UX-focused content that makes complex products clear, accessible, and easy to use.
 <br>
 ### Contact: [angermann.anna@yahoo.de](mailto:angermann.anna@yahoo.de)
-c
+<br>
 
 ## Technical Documentation
 - 🇺🇸 [Case Study: Documenting GDP per Capita with the World Bank API](api_case_study_EN.md)
