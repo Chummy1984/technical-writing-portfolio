@@ -1,10 +1,10 @@
-# Portfolio Dr. Anna K. Angermann
+# Portfolio by Dr. Anna K. Angermann
 
-### Ich freue mich darauf, mit Technical- und UX-Writing dazu beizutragen, komplexe Produkte verständlich, leicht und angenehm nutzbar zu machen!
+### Ich schreibe technische und UX-orientierte Inhalte, die komplexe Produkte verständlich und nutzbar machen.
 
-### I look forward to contributing with technical and UX writing that makes complex products clear, easy, and pleasant to use!
+### I create technical and UX-focused content that makes complex products clear, accessible, and easy to use.
 
-### Kontakt · Contact: [angermann.anna@yahoo.de](mailto:angermann.anna@yahoo.de)
+### Contact: [angermann.anna@yahoo.de](mailto:angermann.anna@yahoo.de)
 <br>
 
 ## Technical Documentation
