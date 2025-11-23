@@ -3,9 +3,9 @@
 ### Ich schreibe technische und UX-orientierte Inhalte, die komplexe Produkte verständlich und nutzbar machen.
 
 ### I create technical and UX-focused content that makes complex products clear, accessible, and easy to use.
-
-### Contact: [angermann.anna@yahoo.de](mailto:angermann.anna@yahoo.de)
 <br>
+### Contact: [angermann.anna@yahoo.de](mailto:angermann.anna@yahoo.de)
+c
 
 ## Technical Documentation
 - 🇺🇸 [Case Study: Documenting GDP per Capita with the World Bank API](api_case_study_EN.md)
