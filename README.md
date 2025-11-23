@@ -18,5 +18,5 @@
 - 🇺🇸 [Audible Germany: Inconsistent Offer Communication](audible_EN.md)
 
 ## About 
-- 🇩🇪 [Über mich](about_DE_EN/about_EN.md.md)
+- 🇩🇪 [Über mich](../about_DE_EN/about_EN.md)
 - 🇺🇸 [About](../about_DE_EN/about_EN.md)
