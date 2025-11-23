@@ -98,7 +98,7 @@ The product design flaw cannot be corrected here, which means the labeling remai
 
 ## 5. Product Setting and Maintenance
 
-![Product Setting.jpg](attachment:8383a59e-7952-4c3c-822d-470a15cb3722:Product_Setting.jpg)
+<img src="../images/alarmclock_settings_EN.jpg" width="400">
 
 ## 5.1. Analysis of the “Product Setup and Maintenance” Section
 
