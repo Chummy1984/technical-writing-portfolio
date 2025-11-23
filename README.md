@@ -10,7 +10,7 @@
 ## Technical Documentation
 - 🇺🇸 [Case Study: Documenting GDP per Capita with the World Bank API](api_case_study_EN.md)
 - 🇩🇪 [Sichere Anwendung eines Starthilfegeräts](jumpstarter_DE_EN/jumpstarter_DE.md)
-- 🇺🇸 [Safe Use of a Jump Starter](jumpstarter_EN.md)
+- 🇺🇸 [Safe Use of a Jump Starter](jumpstarter_DE_EN/jumpstarter_EN.md)
 - 🇩🇪 [Bedienungsanleitung Lichtwecker](alarmclock_DE.md)
 - 🇺🇸 [Sunrise Alarm Clock Instructions](alarmclock_EN.md)
 
