@@ -15,7 +15,7 @@
 - 🇺🇸 [Sunrise Alarm Clock Instructions](alarmclock_EN.md)
 
 ## UX Writing
-- 🇺🇸 [Audible Germany: Inconsistent Offer Communication](audible_EN.md)
+- 🇺🇸 [Handling Inconsistent Offer Communication at Audible (Germany)](audible_offer_EN.md)
 
 ## About 
 - 🇩🇪 [Über mich](about_DE_EN/about_DE.md)
