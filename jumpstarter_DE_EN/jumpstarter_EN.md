@@ -1,13 +1,9 @@
 # **Safe Use of a Jump Starter**
 
-## Overview
-
-1. **Context**
-2. **Original Instructions (Excerpt)**
-3. **Analysis of Weaknesses** 
-4. **Relevant Standards**
-5. **Revised Instructions** 
-6. **Conclusion** 
+## **tl;dr**
+- Safety guidance and step-by-step instructions for using a jump starter
+- Focus: clarity, risk mitigation, user-friendly structure
+- Bilingual sample (DE/EN)
 
 ## 1. Context
 
