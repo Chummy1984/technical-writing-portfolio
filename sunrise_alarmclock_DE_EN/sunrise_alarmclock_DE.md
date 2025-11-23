@@ -105,7 +105,7 @@ Der Fehler im Produktdesign lässt sich nicht beheben, die Tastenbezeichnungen b
 
 ## 5. Produkteinstellung und -wartung
 
-![Produkteinstellung](pics/Produkteinstellung.jpg)
+<img src="../images/alarmclock_settings_DE.jpg" width="400">
 
 ### 5.1. Analyse des Abschnitts „Produkteinstellung und -wartung“
 
