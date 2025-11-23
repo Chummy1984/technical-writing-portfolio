@@ -1,19 +1,9 @@
 # Bedienungsanleitung Lichtwecker
 
-## Überblick
-
-1. **Kontext**
-2. **Ziel**
-3. **Produktübersicht**  
-   3.1. Analyse der Produktübersicht  
-   3.2. Überarbeitete Produktübersicht
-4. **Inhaltsverzeichnis**  
-   4.1. Analyse des Inhaltsverzeichnisses  
-   4.2. Überarbeitetes Inhaltsverzeichnis
-5. **Produkteinstellung und -wartung**  
-   5.1. Analyse des Abschnitts „Produkteinstellung und -wartung“  
-   5.2. Überarbeiteter Abschnitt „Produkteinstellung und -wartung“
-6. **Fazit**
+## **tl;dr**
+- Bedienungsanleitung für einen Lichtwecker (Consumer Device)
+- Fokus: klare UI-Erläuterungen und verständliche Schritt-für-Schritt-Anweisungen
+- Zweisprachiges Sample (DE/EN)
 
 ## 1. Kontext
 
