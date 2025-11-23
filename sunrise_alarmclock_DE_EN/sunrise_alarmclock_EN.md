@@ -100,7 +100,7 @@ The product design flaw cannot be corrected here, which means the labeling remai
 
 <img src="../images/alarmclock_settings_EN.jpg" width="400">
 
-## 5.1. Analysis of the “Product Setup and Maintenance” Section
+### 5.1. Analysis of the “Product Setup and Maintenance” Section
 
 #### Strengths
 
