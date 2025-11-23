@@ -1,4 +1,4 @@
-# **Safe Use of a Jump Starter (Tutorial & Compliance Guide)**
+# **Safe Use of a Jump Starter**
 
 ## Overview
 
