@@ -134,15 +134,15 @@ Before using the alarm clock for the first time, plug the supplied USB cable int
 
 The clock requires a constant power connection.
 
-1. Battery Setup
+**1. Battery Setup**
 
 The clock has a built-in battery. Remove the insulating strip before first use. The battery stores your settings in case of a power interruption.
 
-1. Product Storage
+**2. Product Storage**
 
 Store the clock in a cool, dry place. Avoid direct sunlight and exposure to moisture.
 
-1. Product Cleaning
+**3. Product Cleaning**
 
 Remove dust with a soft, slightly damp cloth. Do not use liquid or abrasive cleaning agents.
 
