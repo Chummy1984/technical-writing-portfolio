@@ -13,51 +13,39 @@ The SpaceX API provides public information about launches, rockets, and missions
 It requires no authentication and returns structured JSON data.  
 This WIP guide demonstrates the basic pattern of retrieving launch information.
 
----
-
 ## 2. Base URL
 
 https://api.spacexdata.com/v4/
 
-yaml
-Code kopieren
-
----
-
 ## 3. Retrieve Latest Launch
 
 ### Endpoint
-
 GET /launches/latest
 
-bash
-Code kopieren
-
 ### Example Request
-
-```bash
 curl https://api.spacexdata.com/v4/launches/latest
-Example Response (truncated)
-json
-Code kopieren
+
+### Example Response (truncated)
 {
   "name": "FalconSat",
   "date_utc": "2006-03-24T22:30:00.000Z",
   "success": false,
   "rocket": "5e9d0d95eda69955f709d1f1"
 }
-Field Overview
-name — mission name
 
-date_utc — launch date in UTC
+### Field Overview
+- name — mission name  
+- date_utc — launch date in UTC  
+- success — indicates launch success (true/false)  
+- rocket — ID for requesting rocket details (via /rockets/{id})
 
-success — indicates launch success (true or false)
+## 4. Next Steps (Planned)
 
-rocket — ID for requesting rocket details (via /rockets/{id})
+- Document corresponding rocket details  
+- Explain nested JSON fields  
+- Add parameter usage and error handling  
 
-4. Next Steps (Planned)
-Document corresponding rocket details
+---
 
-Explain nested JSON fields
 
-Add parameter usage and error handling
+
