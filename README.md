@@ -8,8 +8,11 @@
 ### Contact: [angermann.anna@yahoo.de](mailto:angermann.anna@yahoo.de)
 <br>
 
+## Developer Documentation (API Docs)
+- 🇺🇸 [World Bank API](api-docs/worldbank-api.md)
+- 🇺🇸 [SpaceX API Documentation (WIP)](api-docs/spacex-api.md)
+  
 ## Technical Documentation
-- 🇺🇸 [Case Study: Documenting GDP per Capita with the World Bank API](api_case_study_EN.md)
 - 🇩🇪 [Sichere Anwendung eines Starthilfegeräts](jumpstarter_DE_EN/jumpstarter_DE.md)
 - 🇺🇸 [Safe Use of a Jump Starter](jumpstarter_DE_EN/jumpstarter_EN.md)
 - 🇩🇪 [Bedienungsanleitung Lichtwecker](sunrise_alarmclock_DE_EN/sunrise_alarmclock_DE.md)
