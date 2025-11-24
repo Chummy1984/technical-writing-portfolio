@@ -22,5 +22,25 @@ This documentation demonstrates how to:
 
 ## 2. Base URL
 
+https://api.spacexdata.com/v4/
+
+
+---
+
+## 3. Endpoint Overview
+
+This guide covers two core endpoints:
+
+- `GET /launches/latest` — details of the most recent launch  
+- `GET /rockets/{rocket_id}` — technical data for a specific rocket  
+
+---
+
+## 4. Retrieve Latest Launch
+
+### Endpoint
+
+
+
 
 
