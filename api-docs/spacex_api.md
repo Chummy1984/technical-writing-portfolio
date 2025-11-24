@@ -15,7 +15,7 @@ This WIP guide demonstrates the basic pattern of retrieving launch information.
 
 ## 2. Base URL
 
-https://api.spacexdata.com/v4/
+[https://api.spacexdata.com/v4/](https://api.spacexdata.com/v4/)
 
 ## 3. Retrieve Latest Launch
 
