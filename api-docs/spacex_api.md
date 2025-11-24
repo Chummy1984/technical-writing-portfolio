@@ -11,7 +11,7 @@
 
 The SpaceX API provides public information about launches, rockets, and missions.  
 It requires no authentication and returns structured JSON data.  
-This WIP guide demonstrates the basic pattern of retrieving launch information.
+This guide demonstrates the basic pattern of retrieving launch information.
 
 ## 2. Base URL
 
@@ -26,12 +26,15 @@ GET /launches/latest
 curl https://api.spacexdata.com/v4/launches/latest
 
 ### Example Response (truncated)
+
+```json
 {
   "name": "FalconSat",
   "date_utc": "2006-03-24T22:30:00.000Z",
   "success": false,
   "rocket": "5e9d0d95eda69955f709d1f1"
 }
+```
 
 ### Field Overview
 - name — mission name  
