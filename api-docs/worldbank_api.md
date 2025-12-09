@@ -35,6 +35,7 @@ The data is returned as a time series covering multiple years.
 The API supports both XML (default) and JSON. No authentication is required.
 
 In this documentation, I focus on structure and readability.
+
 ## 3. Endpoint and Response Format
 
 To retrieve GDP per capita data for Latvia, use the following endpoint:
@@ -229,7 +230,7 @@ This version adds the `format=json` parameter to the request.
 In a typical application, the World Bank API is not used in isolation, but as part of a small data pipeline. A common workflow looks like this:
 
 #### 1. Fetch data
-Send a GET request with the desired country, indicator, date range, and per_page parameters.
+Send a `GET`request with the desired `country`, `indicator`, date range, and per_page parameters.
 
 #### 2. Parse the response
 Convert the JSON response into native data structures (e.g. lists or dictionaries in Python, objects in JavaScript).
