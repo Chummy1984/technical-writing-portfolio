@@ -5,6 +5,23 @@
 - Focus: endpoint structure, JSON responses, clear example requests
 - Demonstrates API logic, technical clarity, and developer-facing documentation skills
 
+## 1. Quickstart 
+To quickly retrieve Latvia’s GDP per capita between 2000 and 2020 as JSON in a single response, use:
+
+curl "https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD?date=2000:2020&format=json&per_page=500"
+
+This request:
+- uses GET to read data from the World Bank API
+- limits the time range to 2000–2020 via the date parameter
+- requests JSON instead of the default XML via format=json
+- sets per_page=500 to avoid pagination and return the full time series in one response
+
+The response contains:
+- metadata (pagination and total number of records)
+- a list of yearly GDP per capita values for Latvia
+
+
+
 ## 1. Introduction
 
 This documentation shows how to retrieve Latvia’s GDP per capita using the World Bank API.
