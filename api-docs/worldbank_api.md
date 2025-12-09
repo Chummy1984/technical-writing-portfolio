@@ -239,12 +239,12 @@ Convert the JSON response into native data structures (e.g. lists or dictionarie
 Select only the records for the years that are relevant for the analysis or visualisation.
 
 #### 4. Handle missing values
-Check for null values (JSON) / xsi:nil="true" (XML) and decide how to treat them (e.g. ignore, mark as „no data yet“, or interpolate).
+Check for `null`values (JSON) / `xsi:nil="true"` (XML) and decide how to treat them (e.g. ignore, mark as „no data yet“, or interpolate).
 
 #### 5. Pass processed data to the next layer
 Use the cleaned time series as input for charts, dashboards, reports, or further statistical analysis.
 
-This pattern is reusable across countries and indicators: only the country and indicator codes change, while the overall workflow remains the same.
+This pattern is reusable across countries and indicators: only the `country`and `indicator` codes change, while the overall workflow remains the same.
 
 ## **7. Response Interpretation and Documentation**
 
