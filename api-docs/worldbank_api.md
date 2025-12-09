@@ -8,9 +8,9 @@
 ## 1. Quickstart 
 To quickly retrieve Latvia’s GDP per capita between 2000 and 2020 as JSON in a single response, use:
 
-<pre>```bash 
+```bash 
   curl "https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD?date=2000:2020&format=json&per_page=500" 
-  ```</pre>
+  ```
 
 This request:
 - uses GET to read data from the World Bank API
