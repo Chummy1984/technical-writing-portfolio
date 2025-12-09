@@ -224,6 +224,27 @@ GET https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD?date=2000:2
 
 This version adds the `format=json` parameter to the request.
 
+### 6.4 Typical integration workflow
+
+In a typical application, the World Bank API is not used in isolation, but as part of a small data pipeline. A common workflow looks like this:
+
+#### 1. Fetch data
+Send a GET request with the desired country, indicator, date range, and per_page parameters.
+
+#### 2. Parse the response
+Convert the JSON response into native data structures (e.g. lists or dictionaries in Python, objects in JavaScript).
+
+#### 3. Filter by year
+Select only the records for the years that are relevant for the analysis or visualisation.
+
+#### 4. Handle missing values
+Check for null values (JSON) / xsi:nil="true" (XML) and decide how to treat them (e.g. ignore, mark as „no data yet“, or interpolate).
+
+#### 5. Pass processed data to the next layer
+Use the cleaned time series as input for charts, dashboards, reports, or further statistical analysis.
+
+This pattern is reusable across countries and indicators: only the country and indicator codes change, while the overall workflow remains the same.
+
 ## **7. Response Interpretation and Documentation**
 
 ### 7.1 XML Response (default)
