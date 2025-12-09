@@ -8,7 +8,7 @@
 ## 1. Quickstart 
 To quickly retrieve Latvia’s GDP per capita between 2000 and 2020 as JSON in a single response, use:
 
-curl "https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD?date=2000:2020&format=json&per_page=500"
+```bash curl "https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD?date=2000:2020&format=json&per_page=500" ```
 
 This request:
 - uses GET to read data from the World Bank API
@@ -20,9 +20,7 @@ The response contains:
 - metadata (pagination and total number of records)
 - a list of yearly GDP per capita values for Latvia
 
-
-
-## 1. Introduction
+## 2. Introduction
 
 This documentation shows how to retrieve Latvia’s GDP per capita using the World Bank API.
 
@@ -35,7 +33,7 @@ The data is returned as a time series covering multiple years.
 The API supports both XML (default) and JSON. No authentication is required.
 
 In this documentation, I focus on structure and readability.
-## 2. Endpoint and Response Format
+## 3. Endpoint and Response Format
 
 To retrieve GDP per capita data for Latvia, use the following endpoint:
 
@@ -53,7 +51,7 @@ The request uses the HTTP method `GET`, which is used to read data from the serv
 
 No authentication is required.
 
-## 3. Optional Parameters
+## 4. Optional Parameters
 
 The following optional parameters can be used to refine the request:
 
@@ -69,9 +67,9 @@ The following optional parameters can be used to refine the request:
 GET https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD?date=2000:2020&format=json&per_page=500
 ```
 
-## 4. Sample Responses - XML and JSON
+## 5. Sample Responses - XML and JSON
 
-### 4.1. Sample Response XML (default format)
+### 5.1. Sample Response XML (default format)
 
 By default, the World Bank API returns XML.
 
@@ -103,7 +101,7 @@ This response contains:
 - **Indicator and country information**
 - A list of `<record>` elements, each with a year and a value
 
-### 4.2. Sample Response JSON (with `format=json`)
+### 5.2. Sample Response JSON (with `format=json`)
 
 To receive the response in JSON format, add the `format=json` parameter to the request. See above in “3. Optional Parameters”.
 
@@ -150,13 +148,13 @@ The JSON response contains:
 - An **array of records**, each with indicator, country, date, and value
 - Note: some numeric fields (e.g. `"per_page"`) are returned as strings
 
-## 5. Use Case: Retrieve Latvia’s GDP per Capita
+## 6. Use Case: Retrieve Latvia’s GDP per Capita
 
-### 5.1. Goal
+### 6.1. Goal
 
 This section walks you through retrieving Latvia’s GDP per capita between 2000 and 2020 using the World Bank API.
 
-### 5.2. Step-by-step Explanation
+### 6.2. Step-by-step Explanation
 
 To retrieve Latvia’s GDP per capita between 2000 and 2020, follow these steps:
 
@@ -194,9 +192,9 @@ To retrieve Latvia’s GDP per capita between 2000 and 2020, follow these steps:
     Use the HTTP method `GET` to retrieve the data. No authentication is required
     
 
-### 5.3. Sample Request
+### 6.3. Sample Request
 
-#### 5.3.1. Requesting XML (default)
+#### 6.3.1. Requesting XML (default)
 
 The following request retrieves Latvia’s GDP per capita between 2000 and 2020 in the default XML format:
 
@@ -214,7 +212,7 @@ This request includes:
 
 ---
 
-#### 5.3.2. Requesting JSON
+#### 6.3.2. Requesting JSON
 
 To receive the response in JSON format instead of XML, use:
 
@@ -224,9 +222,9 @@ GET https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD?date=2000:2
 
 This version adds the `format=json` parameter to the request.
 
-## **6. Response Interpretation and Documentation**
+## **7. Response Interpretation and Documentation**
 
-### 6.1 XML Response (default)
+### 7.1 XML Response (default)
 
 By default, the API returns data in XML format. Shortened example:
 
@@ -260,7 +258,7 @@ To find Latvia’s GDP per capita for a specific year, locate the `<record>` wit
 
 ---
 
-### 6.2 JSON Response
+### 7.2 JSON Response
 
 If the request includes `format=json`, the response is returned in JSON format:
 
@@ -302,11 +300,11 @@ If the request includes `format=json`, the response is returned in JSON format:
     2. An array of data records, each with `date`, `value`, and context fields
 - The GDP per capita for a specific year is under the `value` key of the matching `date`
 
-## **7. Error Handling and Edge Cases**
+## **8. Error Handling and Edge Cases**
 
 The World Bank API does not provide detailed error messages. However, some typical failure scenarios can occur:
 
-### 7.1 Invalid Indicator Code
+### 8.1 Invalid Indicator Code
 
 If the indicator code is incorrect (e.g. `NY.GDP.PCAP.WRONG`), the API returns an empty response:
 
@@ -320,7 +318,7 @@ In JSON, the same request returns an empty array `[]`.
 
 ---
 
-### 7.2 No Data Available
+### 8.2 No Data Available
 
 If no value exists for the requested year or country, the response contains a null value.
 
@@ -347,7 +345,7 @@ If no value exists for the requested year or country, the response contains a nu
 
 ---
 
-### 7.3 Pagination Issues
+### 8.3 Pagination Issues
 
 By default, the API limits results to 50 records per page. If the time series is longer, additional pages must be requested.
 
@@ -355,7 +353,7 @@ By default, the API limits results to 50 records per page. If the time series is
 
 ---
 
-### 7.4 HTTP Status Codes
+### 8.4 HTTP Status Codes
 
 The API uses standard HTTP status codes:
 
@@ -364,7 +362,7 @@ The API uses standard HTTP status codes:
 - `404 Not Found`: The resource does not exist (wrong URL)
 - `500 Internal Server Error`: Temporary problem on the World Bank server
 
-## 8. Best Practices for Using the World Bank API
+## 9. Best Practices for Using the World Bank API
 
 When working with the World Bank API, the following practices help ensure reliable and efficient results:
 
@@ -403,7 +401,7 @@ When working with the World Bank API, the following practices help ensure reliab
     
     Typos result in empty responses.
 
-## 9. Extending to Other Countries and Indicators
+## 10. Extending to Other Countries and Indicators
 
 The approach shown in this case study can be easily transferred to other datasets. 
 
@@ -426,7 +424,7 @@ This demonstrates how the same request structure can be reused across multiple i
 
 As a result, the World Bank API offers a consistent and flexible way to access diverse economic and demographic data.
 
-## 10. Conclusion
+## 11. Conclusion
 
 This case study demonstrated how to construct a request to the World Bank API, interpret both XML and JSON responses, and apply best practices for reliable results.
 
