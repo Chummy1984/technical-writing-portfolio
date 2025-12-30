@@ -32,11 +32,9 @@ The World Bank assigns a unique indicator code to each dataset. For GDP per capi
 
 This code must be included in the request URL to retrieve the data.
 
-The data is returned as a time series covering multiple years.
+The data is returned as a time series covering the years requested. 
 
 The API supports both XML (default) and JSON. No authentication is required.
-
-In this documentation, I focus on structure and readability.
 
 ## 3. Endpoint and Response Format
 
