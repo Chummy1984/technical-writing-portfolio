@@ -86,10 +86,6 @@ Below is a shortened example of the response:
     <date>2020</date>
     <value>17384.412</value>
   </record>
-  <record>
-    <date>2019</date>
-    <value>18051.391</value>
-  </record>
 </data>
 
 ```
@@ -98,11 +94,11 @@ This response contains:
 
 - **Metadata** (page info, total entries)
 - **Indicator and country information**
-- A list of `<record>` elements, each with a year and a value
+- A sample `<record>` element with a year and a value
 
 ### 5.2. Sample Response JSON (with `format=json`)
 
-To receive the response in JSON format, add the `format=json` parameter to the request. See above in “3. Optional Parameters”.
+To receive the response in JSON format, add the `format=json` parameter to the request. See above in “4. Optional Parameters”.
 
 ```json
 [
@@ -125,18 +121,6 @@ To receive the response in JSON format, add the `format=json` parameter to the r
       "date": "2020",
       "value": 17384.412
     },
-    {
-      "indicator": {
-        "id": "NY.GDP.PCAP.CD",
-        "value": "GDP per capita (current US$)"
-      },
-      "country": {
-        "id": "LV",
-        "value": "Latvia"
-      },
-      "date": "2019",
-      "value": 18051.391
-    }
   ]
 ]
 ```
@@ -144,7 +128,7 @@ To receive the response in JSON format, add the `format=json` parameter to the r
 The JSON response contains:
 
 - **Metadata** (page info, total entries)
-- An **array of records**, each with indicator, country, date, and value
+- A sample **array of records** with indicator, country, date, and value
 - Note: some numeric fields (e.g. `"per_page"`) are returned as strings
 
 ## 6. Use Case: Retrieve Latvia’s GDP per Capita
