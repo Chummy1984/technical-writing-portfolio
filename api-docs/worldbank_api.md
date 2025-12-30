@@ -292,26 +292,19 @@ When working with the World Bank API, the following practices help ensure reliab
 
 ## 9. Extending to Other Countries and Indicators
 
-The approach shown in this case study can be easily transferred to other datasets. 
+The same request structure can be reused across different countries and indicators.
 
-- **Change the country code:**
-    
-    Replace `LV` with another ISO country code (e.g. `DE` for Germany, `US` for the United States).
-    
-- **Change the indicator code:**
-    
-    Replace `NY.GDP.PCAP.CD` with another World Bank indicator (e.g. `SP.POP.TOTL` for total population).
-    
+- **Change the country code.**  
+  Replace `LV` with another ISO country code (e.g. `DE`, `US`).
 
-**Example:** Retrieve Germany’s population between 2010 and 2020 in JSON format:
+- **Change the indicator code.**  
+  Replace `NY.GDP.PCAP.CD` with another World Bank indicator (e.g. `SP.POP.TOTL` for total population).
 
-```
+Example: Retrieve Germany’s population between 2010 and 2020 in JSON format:
+
+```http
 GET https://api.worldbank.org/v2/country/DE/indicator/SP.POP.TOTL?date=2010:2020&format=json&per_page=500
-```
 
-This demonstrates how the same request structure can be reused across multiple indicators and countries.
-
-As a result, the World Bank API offers a consistent and flexible way to access diverse economic and demographic data.
 
 ## 10. Conclusion
 
