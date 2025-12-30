@@ -58,7 +58,7 @@ The following optional parameters can be used to refine the request:
 | --- | --- | --- | --- | --- |
 | `date` | Limits the data to a specific time range. | string | full dataset | Format: `YYYY:YYYY` (e.g. `2000:2020`). |
 | `format` | Defines the response format. | string | XML | Use `json` for JSON output. Affects only presentation, not data. |
-| `per_page` | Number of results per page. | number | 50 | Set to 500 to return the full time series in one response. Otherwise, multiple pages may be needed. |
+| `per_page` | Number of results per page. | integer | 50 | Set to 500 to return the full time series in one response. Otherwise, multiple pages may be needed. |
 
 **Example request with all parameters combined:**
 
