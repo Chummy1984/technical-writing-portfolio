@@ -120,7 +120,7 @@ To receive the response in JSON format, add the `format=json` parameter to the r
       },
       "date": "2020",
       "value": 17384.412
-    },
+    }
   ]
 ]
 ```
