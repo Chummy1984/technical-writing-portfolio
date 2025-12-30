@@ -50,10 +50,6 @@ By default, the response is returned in XML. To get the data in JSON, add the `f
 GET https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD?format=json
 ```
 
-The request uses the HTTP method `GET`, which is used to read data from the server.
-
-No authentication is required.
-
 ## 4. Optional Parameters
 
 The following optional parameters can be used to refine the request:
