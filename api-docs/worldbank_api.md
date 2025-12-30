@@ -219,89 +219,12 @@ Use the cleaned time series as input for charts, dashboards, reports, or further
 
 This pattern is reusable across countries and indicators: only the `country` and `indicator` codes change, while the overall workflow remains the same.
 
-## **7. Response Interpretation and Documentation**
 
-### 7.1 XML Response (default)
-
-By default, the API returns data in XML format. Shortened example:
-
-```xml
-<data>
-  <page>1</page>
-  <pages>1</pages>
-  <per_page>500</per_page>
-  <total>32</total>
-  <indicator id="NY.GDP.PCAP.CD">GDP per capita (current US$)</indicator>
-  <country id="LV">Latvia</country>
-  <record>
-    <date>2020</date>
-    <value>17384.412</value>
-  </record>
-  <record>
-    <date>2019</date>
-    <value>18051.391</value>
-  </record>
-  <!-- ... -->
-</data>
-```
-
-**Explanation:**
-
-- `<indicator>` and `<country>` define the context
-- Each `<record>` contains one data point: `<date>` + `<value>`
-- Metadata elements (`<page>`, `<total>`) describe pagination and result size
-
-To find Latvia’s GDP per capita for a specific year, locate the `<record>` with the matching `<date>`.
-
----
-
-### 7.2 JSON Response
-
-If the request includes `format=json`, the response is returned in JSON format:
-
-```javascript
-[
-  {
-    "page": 1,
-    "pages": 1,
-    "per_page": "500",
-    "total": 32
-  },
-  [
-    {
-      "indicator": {
-        "id": "NY.GDP.PCAP.CD",
-        "value": "GDP per capita (current US$)"
-      },
-      "country": {
-        "id": "LV",
-        "value": "Latvia"
-      },
-      "date": "2020",
-      "value": 17384.412
-    },
-    {
-      "date": "2019",
-      "value": 18051.391
-      // indicator and country omitted for brevity
-    }
-    // ...
-  ]
-]
-```
-
-**Explanation:**
-
-- The JSON response has two elements:
-    1. An object with metadata (pagination, total results)
-    2. An array of data records, each with `date`, `value`, and context fields
-- The GDP per capita for a specific year is under the `value` key of the matching `date`
-
-## **8. Error Handling and Edge Cases**
+## **7. Error Handling and Edge Cases**
 
 The World Bank API does not provide detailed error messages. However, some typical failure scenarios can occur:
 
-### 8.1 Invalid Indicator Code
+### 7.1 Invalid Indicator Code
 
 If the indicator code is incorrect (e.g. `NY.GDP.PCAP.WRONG`), the API returns an empty response:
 
@@ -315,7 +238,7 @@ In JSON, the same request returns an empty array `[]`.
 
 ---
 
-### 8.2 No Data Available
+### 7.2 No Data Available
 
 If no value exists for the requested year or country, the response contains a null value.
 
@@ -342,7 +265,7 @@ If no value exists for the requested year or country, the response contains a nu
 
 ---
 
-### 8.3 Pagination Issues
+### 7.3 Pagination Issues
 
 By default, the API limits results to 50 records per page. If the time series is longer, additional pages must be requested.
 
@@ -350,7 +273,7 @@ By default, the API limits results to 50 records per page. If the time series is
 
 ---
 
-### 8.4 HTTP Status Codes
+### 7.4 HTTP Status Codes
 
 The API uses standard HTTP status codes:
 
@@ -359,7 +282,7 @@ The API uses standard HTTP status codes:
 - `404 Not Found`: The resource does not exist (wrong URL)
 - `500 Internal Server Error`: Temporary problem on the World Bank server
 
-## 9. Best Practices for Using the World Bank API
+## 8. Best Practices for Using the World Bank API
 
 When working with the World Bank API, the following practices help ensure reliable and efficient results:
 
@@ -398,7 +321,7 @@ When working with the World Bank API, the following practices help ensure reliab
     
     Typos result in empty responses.
 
-## 10. Extending to Other Countries and Indicators
+## 9. Extending to Other Countries and Indicators
 
 The approach shown in this case study can be easily transferred to other datasets. 
 
@@ -421,7 +344,7 @@ This demonstrates how the same request structure can be reused across multiple i
 
 As a result, the World Bank API offers a consistent and flexible way to access diverse economic and demographic data.
 
-## 11. Conclusion
+## 10. Conclusion
 
 This case study demonstrated how to construct a request to the World Bank API, interpret both XML and JSON responses, and apply best practices for reliable results.
 
