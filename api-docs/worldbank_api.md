@@ -12,10 +12,9 @@ curl "https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD?date=2000
 
 
 This request:
-- uses GET to read data from the World Bank API
-- limits the time range to 2000–2020 via the date parameter
-- requests JSON instead of the default XML via format=json
-- sets per_page=500 to avoid pagination and return the full time series in one response
+- limits the time range to 2000–2020 (date)
+- requests JSON output (format=json)
+- avoids pagination by returning the full time series (per_page=500)
 
 The response contains:
 - metadata (pagination and total number of records)
