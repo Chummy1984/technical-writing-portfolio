@@ -134,7 +134,6 @@ The JSON response contains:
 ## 6. Use Case: Retrieve Latvia’s GDP per Capita
 
 ### 6.1. Goal
-
 This section walks you through retrieving Latvia’s GDP per capita between 2000 and 2020 using the World Bank API.
 
 ### 6.2. Step-by-step Explanation
