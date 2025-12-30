@@ -15,9 +15,10 @@ curl "https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD?date=2000
 
 
 This request:
-- limits the time range to 2000–2020 (date)
-- requests JSON output (format=json)
-- avoids pagination by returning the full time series (per_page=500)
+- limits the time range to 2000–2020 using `date`
+- requests JSON output using `format=json`
+- avoids pagination by returning the full time series using `per_page=500`
+
 
 The response contains:
 - metadata (pagination and total number of records)
