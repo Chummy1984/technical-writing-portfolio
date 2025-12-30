@@ -280,40 +280,15 @@ The API uses standard HTTP status codes:
 
 When working with the World Bank API, the following practices help ensure reliable and efficient results:
 
-- **Set `per_page=500`:**
+- **Set `per_page=500`:** Avoid pagination by requesting the entire time series in a single response.
     
-    Avoid pagination by requesting the entire time series in one response.
+- **Choose the right format:** JSON is easier to parse in most environments; XML may be preferred in organisations that use schema validation or have existing XML-based workflows.
     
-- **Choose the right format:**
+- **Specify a date range:** Use `date=YYYY:YYYY` to limit the dataset to relevant years and reduce response size.
     
-    JSON is easier to parse in most programming environments and integrates well with data analysis tools.
-    
-    XML may be preferred in organisations that use schema validation or have existing XML-based workflows.
-    
-- **Specify a date range:**
-    
-    Use `date=YYYY:YYYY` to limit the dataset to relevant years.
-    
-    This reduces response size and makes the output easier to handle.
-    
-- **Check for null values:**
-    
-    Some years may not have published data.
-    In JSON this appears as `"value": null`, in XML as `<value xsi:nil="true"/>`
-    
-    **Why it matters:**
-    
-    – Prevents calculation errors in analysis (e.g. averages, growth rates).
-    
-    – Avoids misleading visualisations (null interpreted as 0).
-    
-    – Helps distinguish between “no data yet” and “real numeric value”.
-    
-- **Verify codes:**
-    
-    Make sure the **country code** (e.g. `LV`) and the **indicator code** (e.g. `NY.GDP.PCAP.CD`) are correct before sending the request.
-    
-    Typos result in empty responses.
+- **Handle null values explicitly.** Missing data appears as `"value": null` (JSON) or `<value xsi:nil="true"/>` (XML).
+
+- **Verify country and indicator codes before sending requests.** Typos result in empty responses.
 
 ## 9. Extending to Other Countries and Indicators
 
