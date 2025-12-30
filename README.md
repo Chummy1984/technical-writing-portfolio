@@ -9,8 +9,8 @@
 <br>
 
 ## Developer Documentation (API Docs)
-- 🇺🇸 [World Bank API Documentation](api-docs/worldbank_api.md)
-- 🇺🇸 [SpaceX API Documentation (WIP)](api-docs/spacex_api.md)
+- 🇺🇸 [World Bank API Documentation](api_docs_EN/worldbank_api.md)
+- 🇺🇸 [SpaceX API Documentation (WIP)](api_docs_EN/spacex_api.md)
   
 ## Technical Documentation
 - 🇩🇪 [Sichere Anwendung eines Starthilfegeräts](jumpstarter_DE_EN/jumpstarter_DE.md)
