@@ -304,6 +304,7 @@ Example: Retrieve Germany’s population between 2010 and 2020 in JSON format:
 
 ```http
 GET https://api.worldbank.org/v2/country/DE/indicator/SP.POP.TOTL?date=2010:2020&format=json&per_page=500
+```
 
 
 ## 10. Conclusion
