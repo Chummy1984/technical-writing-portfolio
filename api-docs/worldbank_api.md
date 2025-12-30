@@ -236,8 +236,6 @@ In JSON, the same request returns an empty array `[]`.
 
 **Interpretation:** Check the indicator code. If invalid, adjust and retry.
 
----
-
 ### 7.2 No Data Available
 
 If no value exists for the requested year or country, the response contains a null value.
@@ -263,15 +261,11 @@ If no value exists for the requested year or country, the response contains a nu
 
 **Interpretation:** The data for this year has not yet been published.
 
----
-
 ### 7.3 Pagination Issues
 
 By default, the API limits results to 50 records per page. If the time series is longer, additional pages must be requested.
 
 **Recommendation:** Always set `per_page=500` (maximum allowed value) to receive the full series in one response.
-
----
 
 ### 7.4 HTTP Status Codes
 
