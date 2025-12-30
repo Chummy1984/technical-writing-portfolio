@@ -138,11 +138,11 @@ This section walks you through retrieving Latvia’s GDP per capita between 2000
 
 ### 6.2. Step-by-step Explanation
 
-**1. Choose the correct indicator.**
+1. **Choose the correct indicator.**
     
     The World Bank uses the indicator code `NY.GDP.PCAP.CD` to refer to GDP per capita in current US dollars.
     
-**2. Define the endpoint.**
+2. **Define the endpoint.**
     
     The base endpoint for retrieving indicator data for a specific country is:
     
@@ -152,14 +152,14 @@ This section walks you through retrieving Latvia’s GDP per capita between 2000
     https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD
     ```
     
-**3. Add optional parameters.**
+3. **Add optional parameters.**
     
     To refine the query and make the response easier to process, use the following parameters:
     
     - `date=2000:2020` limits the data to the desired time range.
     - `format=json` requests the response in JSON rather than the default XML.
     - `per_page=500` ensures that the entire time series is returned in a single response without pagination.
-**4. Construct the complete request.**
+4. **Construct the complete request.**
     
     Combining the endpoint and parameters results in the following URL:
     
@@ -202,19 +202,19 @@ This version adds the `format=json` parameter to the request.
 
 In a typical application, the World Bank API is not used in isolation, but as part of a small data pipeline. A common workflow looks like this:
 
-**1. Fetch data**
+1. **Fetch data**
 Send a `GET` request with the desired `country`, `indicator`, `date` range, and `per_page` parameters.
 
-**2. Parse the response**
+2. **Parse the response**
 Convert the JSON response into native data structures (e.g. lists or dictionaries in Python, objects in JavaScript).
 
-**3. Filter by year**
+3. **Filter by year**
 Select only the records for the years that are relevant for the analysis or visualisation.
 
-**4. Handle missing values**
+4. **Handle missing values**
 Check for `null` values (JSON) / `xsi:nil="true"` (XML) and decide how to treat them (e.g. ignore, mark as „no data yet“, or interpolate).
 
-**5. Pass processed data to the next layer**
+5. **Pass processed data to the next layer**
 Use the cleaned time series as input for charts, dashboards, reports, or further statistical analysis.
 
 This pattern is reusable across countries and indicators: only the `country` and `indicator` codes change, while the overall workflow remains the same.
