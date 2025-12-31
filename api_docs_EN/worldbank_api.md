@@ -194,7 +194,7 @@ If the indicator code is incorrect (e.g. `NY.GDP.PCAP.WRONG`), the API returns a
 
 In JSON, the same request returns an empty array `[]`.
 
-**Interpretation:** Check the indicator code. If invalid, adjust and retry.
+**Handling:** Verify the indicator code and retry the request.
 
 ### 7.2 No Data Available
 
@@ -219,7 +219,7 @@ If no value exists for the requested year or country, the response contains a nu
 </record>
 ```
 
-**Interpretation:** The data for this year has not yet been published.
+**Handling:** Handle missing values according to your application logic.
 
 ### 7.3 Pagination Issues
 
@@ -231,7 +231,7 @@ By default, the API limits results to 50 records per page. If the time series is
 
 The API uses standard HTTP status codes:
 
-- `200 OK`: Request successful, data returned
+- `200 OK`: Request successful
 - `400 Bad Request`: Invalid parameter (e.g. wrong indicator or country code)
 - `404 Not Found`: The resource does not exist (wrong URL)
 - `500 Internal Server Error`: Temporary problem on the World Bank server
