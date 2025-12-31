@@ -89,7 +89,7 @@ The XML response includes metadata, indicator and country information, and a sam
 
 ### 5.2. Sample Response JSON (with `format=json`)
 
-To receive the response in JSON format, add the `format=json` parameter to the request. See above in “4. Optional Parameters”.
+To receive the response in JSON format, add the `format=json` parameter to the request. 
 
 ```json
 [
