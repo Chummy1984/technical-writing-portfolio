@@ -35,13 +35,13 @@ No authentication is required.
 
 To retrieve GDP per capita data for Latvia, use the following endpoint:
 
-```bash
+```http
 GET https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD
 ```
 
 By default, the response is returned in XML. To get the data in JSON, add the `format=json` parameter: 
 
-```bash
+```http
 GET https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD?format=json
 ```
 
@@ -57,7 +57,7 @@ The following optional parameters can be used to refine the request:
 
 **Example request with all parameters combined:**
 
-```
+```http
 GET https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD?date=2000:2020&format=json&per_page=500
 ```
 
