@@ -61,7 +61,7 @@ The following optional parameters can be used to refine the request:
 GET https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD?date=2000:2020&format=json&per_page=500
 ```
 
-## 5. Sample Responses - XML and JSON
+## 5. Sample Responses 
 
 ### 5.1. Sample Response XML (default format)
 
@@ -85,11 +85,7 @@ Below is a shortened example of the response:
 
 ```
 
-This response contains:
-
-- **Metadata** (page info, total entries)
-- **Indicator and country information**
-- A sample `<record>` element with a year and a value
+The XML response includes metadata, indicator and country information, and a sample yearly record.
 
 ### 5.2. Sample Response JSON (with `format=json`)
 
@@ -120,11 +116,11 @@ To receive the response in JSON format, add the `format=json` parameter to the r
 ]
 ```
 
-The JSON response contains:
+The JSON response is a two-element array:
+- the first element contains metadata
+- the second element contains the data records
 
-- **Metadata** (page info, total entries)
-- A sample **array of records** with indicator, country, date, and value
-- Note: some numeric fields (e.g. `"per_page"`) are returned as strings
+Note: some numeric fields (e.g. `per_page`) are returned as strings.
 
 ## 6. Use Case: Retrieve Latvia’s GDP per Capita
 
