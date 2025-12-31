@@ -6,4 +6,5 @@ This demonstrates the workflow from API request → parsing → data preparation
 
 ## Data source
 Example request:
-https://api.worldbank.org/v2/country/EE/indicator/NY.GDP.PCAP.CD?date=2000:2020&format=json&per_page=500
+`GET /v2/country/EE/indicator/NY.GDP.PCAP.CD?date=2000:2020&format=json&per_page=500`
+
