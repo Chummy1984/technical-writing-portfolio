@@ -10,7 +10,7 @@
 
 ## Developer Documentation (API Docs)
 - 🇺🇸 [World Bank API Documentation](api_docs_EN/worldbank_api.md)
-- 🇺🇸 [From API to Chart: GDP per Capita (World Bank API)](api_docs_EN/worldbank_api_to_chart.md)
+- 🇺🇸 [From API to Chart: GDP per Capita (World Bank API)](api_docs_EN/worldbank_api_to_chart)
 - 🇺🇸 [SpaceX API Documentation (WIP)](api_docs_EN/spacex_api.md)
   
 ## Technical Documentation
