@@ -2,7 +2,7 @@
 
 ## Goal
 Fetch GDP per capita data for Estonia (EE) from the World Bank API and turn it into a simple line chart.
-This demonstrates the workflow from API request → parsing → data preparation → visual output.
+The example follows the workflow from API request → parsing → data preparation → visual output.
 
 ## Data source
 Example request:
