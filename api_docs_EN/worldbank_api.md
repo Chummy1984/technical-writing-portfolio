@@ -253,26 +253,23 @@ When working with the World Bank API, the following practices help ensure reliab
 ## 9. Extending to Other Countries and Indicators
 
 
-The same request structure applies to other countries and indicators.
+The same request structure applies to other countries.
 
 - **Country:** Replace `LV` with another ISO country code (e.g. `DE`, `US`).
-- **Indicator:** Replace `NY.GDP.PCAP.CD` with another World Bank indicator
-  (e.g. `SP.POP.TOTL` for total population).
+- **Indicator:** Keep the same indicator code (`NY.GDP.PCAP.CD`) to retrieve GDP per capita.
 
-Example: Retrieve Germany’s population between 2010 and 2020 in JSON format:
+Example: Retrieve Germany’s GDP per capita between 2010 and 2020 in JSON format:
 
 ```http
-GET /v2/country/DE/indicator/SP.POP.TOTL?date=2010:2020&format=json&per_page=500
+GET /v2/country/DE/indicator/NY.GDP.PCAP.CD?date=2010:2020&format=json&per_page=500
 ```
 
 ## 10. Conclusion
 
-This documentation showed how to retrieve and work with GDP per capita data using the World Bank API.
+This documentation outlined how to retrieve GDP per capita data from the World Bank API.
 
-Key takeaways:
-- The API follows a consistent request and response structure across countries and indicators.
-- JSON responses are generally easier to process, while XML may be required in specific environments.
-- Null values and pagination require explicit handling to avoid downstream errors.
-- The same request pattern can be reused by adjusting country and indicator codes.
+The API uses a consistent request and response structure across countries.
+Responses can be processed as JSON or XML, with explicit handling of missing values and pagination.
+The same request pattern can be reused by adjusting country codes.
 
-These patterns make the World Bank API suitable for integration into data analysis, reporting, and other data-driven workflows.
+This makes the World Bank API suitable for integration into data analysis and reporting workflows.
