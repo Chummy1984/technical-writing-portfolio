@@ -1,9 +1,9 @@
 # Documenting GDP per Capita with the World Bank API
 
 ## **tl;dr**
-- Explains how to retrieve GDP per capita via the World Bank API
-- Focus: endpoint structure, JSON responses, clear example requests
-- Demonstrates API logic, technical clarity, and developer-facing documentation skills
+- Retrieve GDP per capita time series data from the World Bank API
+- Focus on endpoint structure, parameters, and JSON responses
+- Includes a minimal Quickstart with example requests
 
 ## 1. Quickstart 
 To quickly retrieve Latvia’s GDP per capita between 2000 and 2020 as JSON in a single response, use:
@@ -11,14 +11,10 @@ To quickly retrieve Latvia’s GDP per capita between 2000 and 2020 as JSON in a
 ```bash
 curl "https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD?date=2000:2020&format=json&per_page=500"
 ```
-
-
-
 This request:
 - limits the time range to 2000–2020 using `date`
 - requests JSON output using `format=json`
 - avoids pagination by returning the full time series using `per_page=500`
-
 
 The response contains:
 - metadata (pagination and total number of records)
@@ -26,15 +22,14 @@ The response contains:
 
 ## 2. Introduction
 
-This documentation shows how to retrieve Latvia’s GDP per capita using the World Bank API.
+This documentation explains how to retrieve GDP per capita data from the World Bank API.
 
-The World Bank assigns a unique indicator code to each dataset. For GDP per capita (current US dollars), the code is `NY.GDP.PCAP.CD`.
+Each dataset is identified by a unique indicator code.  
+For GDP per capita (current US dollars), the indicator code is `NY.GDP.PCAP.CD`.
 
-This code must be included in the request URL to retrieve the data.
-
-The data is returned as a time series covering the years requested. 
-
-The API supports both XML (default) and JSON. No authentication is required.
+The API returns the requested data as a time series for the specified years.
+Responses are available in XML (default) and JSON format.
+No authentication is required.
 
 ## 3. Endpoint and Response Format
 
