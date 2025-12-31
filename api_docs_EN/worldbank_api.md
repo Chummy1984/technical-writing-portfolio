@@ -236,36 +236,34 @@ The API uses standard HTTP status codes:
 - `404 Not Found`: The resource does not exist (wrong URL)
 - `500 Internal Server Error`: Temporary problem on the World Bank server
 
-## 8. Best Practices for Using the World Bank API
+## 8. Best Practices 
 
 When working with the World Bank API, the following practices help ensure reliable and efficient results:
 
 - **Set `per_page=500`:** Avoid pagination by requesting the entire time series in a single response.
     
-- **Choose the right format:** JSON is easier to parse in most environments; XML may be preferred in organisations that use schema validation or have existing XML-based workflows.
+- **Choose the right format:** JSON is easier to parse in most environments; XML may be used in XML-based workflows.
     
-- **Specify a date range:** Use `date=YYYY:YYYY` to limit the dataset to relevant years and reduce response size.
+- **Specify a date range:** Use `date=YYYY:YYYY` to limit the dataset to relevant years.
     
 - **Handle null values explicitly.** Missing data appears as `"value": null` (JSON) or `<value xsi:nil="true"/>` (XML).
 
-- **Verify country and indicator codes before sending requests.** Typos result in empty responses.
+- **Verify country and indicator codes before sending requests.** Invalid codes result in empty responses.
 
 ## 9. Extending to Other Countries and Indicators
 
-The same request structure can be reused across different countries and indicators.
 
-- **Change the country code.**  
-  Replace `LV` with another ISO country code (e.g. `DE`, `US`).
+The same request structure applies to other countries and indicators.
 
-- **Change the indicator code.**  
-  Replace `NY.GDP.PCAP.CD` with another World Bank indicator (e.g. `SP.POP.TOTL` for total population).
+- **Country:** Replace `LV` with another ISO country code (e.g. `DE`, `US`).
+- **Indicator:** Replace `NY.GDP.PCAP.CD` with another World Bank indicator
+  (e.g. `SP.POP.TOTL` for total population).
 
 Example: Retrieve Germany’s population between 2010 and 2020 in JSON format:
 
 ```http
-GET https://api.worldbank.org/v2/country/DE/indicator/SP.POP.TOTL?date=2010:2020&format=json&per_page=500
+GET /v2/country/DE/indicator/SP.POP.TOTL?date=2010:2020&format=json&per_page=500
 ```
-
 
 ## 10. Conclusion
 
