@@ -125,65 +125,34 @@ Note: some numeric fields (e.g. `per_page`) are returned as strings.
 ## 6. Use Case: Retrieve Latvia’s GDP per Capita
 
 ### 6.1. Goal
-This section walks you through retrieving Latvia’s GDP per capita between 2000 and 2020 using the World Bank API.
+This section shows how to retrieve Latvia’s GDP per capita between 2000 and 2020 using the World Bank API.
 
 ### 6.2. Step-by-step Explanation
 
-1. **Choose the correct indicator.**
+1. Select the indicator (`NY.GDP.PCAP.CD`).
+2. Use the country-specific endpoint.
+3. Add optional parameters (`date`, `format`, `per_page`) to refine the request.
+4. Send the complete request and process the response.
     
-    The World Bank uses the indicator code `NY.GDP.PCAP.CD` to refer to GDP per capita in current US dollars.
-    
-2. **Define the endpoint.**
-    
-    The base endpoint for retrieving indicator data for a specific country is:
-    
-    For Latvia and GDP per capita, this becomes:
-    
-    ```
-    https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD
-    ```
-    
-3. **Add optional parameters.**
-    
-    To refine the query and make the response easier to process, use the following parameters:
-    
-    - `date=2000:2020` limits the data to the desired time range.
-    - `format=json` requests the response in JSON rather than the default XML.
-    - `per_page=500` ensures that the entire time series is returned in a single response without pagination.
-4. **Construct the complete request.**
-    
-    Combining the endpoint and parameters results in the following URL:
-    
-    ```
-    https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD?date=2000:2020&format=json&per_page=500
-    ```
-    
-
 ### 6.3. Sample Request
 
-#### 6.3.1. Requesting XML (default)
+#### 6.3.1. XML (default)
 
 The following request retrieves Latvia’s GDP per capita between 2000 and 2020 in the default XML format:
 
-```https
+```http
 GET https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD?date=2000:2020&per_page=500
 ```
 
-This request includes:
+`date=2000:2020` specifies the time range
 
-– `date=2000:2020` to specify the time range
+`per_page=500` avoids pagination
 
-– `per_page=500` to avoid pagination and return the full time series
+XML is returned by default
 
-– No `format` parameter is needed, as XML is the default
+#### 6.3.2. JSON
 
----
-
-#### 6.3.2. Requesting JSON
-
-To receive the response in JSON format instead of XML, use:
-
-```https
+```http
 GET https://api.worldbank.org/v2/country/LV/indicator/NY.GDP.PCAP.CD?date=2000:2020&format=json&per_page=500
 ```
 
@@ -191,24 +160,24 @@ This version adds the `format=json` parameter to the request.
 
 ### 6.4 Typical integration workflow
 
-In a typical application, the World Bank API is not used in isolation, but as part of a small data pipeline. A common workflow looks like this:
+In practice, the World Bank API is typically used as part of a simple data pipeline:
 
-1. **Fetch data**
-Send a `GET` request with the desired `country`, `indicator`, `date` range, and `per_page` parameters.
+1. **Fetch data**  
+   Send a `GET` request with the desired `country`, `indicator`, `date`, and `per_page` parameters.
 
-2. **Parse the response**
-Convert the JSON response into native data structures (e.g. lists or dictionaries in Python, objects in JavaScript).
+2. **Parse the response**  
+   Convert the JSON or XML response into native data structures.
 
-3. **Filter by year**
-Select only the records for the years that are relevant for the analysis or visualisation.
+3. **Filter by year**  
+   Select the records relevant for the analysis or visualisation.
 
-4. **Handle missing values**
-Check for `null` values (JSON) / `xsi:nil="true"` (XML) and decide how to treat them (e.g. ignore, mark as „no data yet“, or interpolate).
+4. **Handle missing values**  
+   Account for missing data (`null` in JSON, `xsi:nil="true"` in XML).
 
-5. **Pass processed data to the next layer**
-Use the cleaned time series as input for charts, dashboards, reports, or further statistical analysis.
+5. **Pass processed data to the next layer**  
+   Use the cleaned time series for charts, dashboards, reports, or further analysis.
 
-This pattern is reusable across countries and indicators: only the `country` and `indicator` codes change, while the overall workflow remains the same.
+This workflow is reusable across countries and indicators by changing only the `country` and `indicator` codes.
 
 
 ## **7. Error Handling and Edge Cases**
