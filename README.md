@@ -1,4 +1,4 @@
-# Portfolio by Dr. Anna K. Angermann
+# Portfolio by Dr. X
 
 ### Ich schreibe technische und UX-orientierte Inhalte, die komplexe Produkte verständlich und nutzbar machen.
 
