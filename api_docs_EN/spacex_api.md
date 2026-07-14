@@ -1,4 +1,4 @@
-# Retrieving Launch Data with the SpaceX API
+# Retrieving Launch Data with the SpaceX API (WPI)
 
 ## **tl;dr**
 > **Status:** Work in Progress  
